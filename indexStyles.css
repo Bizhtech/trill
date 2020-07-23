@@ -2,18 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  padding-top: 90px;
   font-family: 'Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
-.header-bg{
-  height: 100vh;
-  width: 100%;
-  background: #407cc0;
-}
-#lol{
-  height: 100vh;
-  width: 100%;
-  background: grey;
 }
 /*||||||||||||||||||||||||||||||||*/
 /*  NAVIGATION BAR STYLES START  */
@@ -26,34 +15,35 @@ body {
 color: #407cc0;
 }
 #topnav{
-  transition: all 0.5s;
-  background-color: white;
+ -webkit-transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
+  transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
+  background-color: transparent;
+  border-bottom: 1px solid #407cc0;
+  font-family: 'Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .navbar-nav a{
   /*color:#5f687b;*/
   color:#407cc0;
   opacity: 1;
   font-size: 18px;
+  font-family: 'Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .navbar-nav a.active{
   /*color: #ff3d34;*/
   /*color: #1b94dd;*/
-  border: 1px solid transparent;
-  color:white;
-  background-color: #407cc0;
+  border: 1px solid #407cc0;
+  color:#407cc0;
 }
 .navbar-nav a:hover{
-  opacity: 0.9;
-  border: 1px solid transparent;
-  color:#eee;
+  border: 1px solid #407cc0;
+  transform: scale(1.1);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .navbar-shadow{
   width: 100%;
   border-radius: 2px;
   box-shadow: 0 0px 15px rgb(0,0,0,0.25);
-}
-.navbar-nav{
-  margin-top: 25px;
 }
 nav ul li a.current{
   border: 1px solid transparent;
@@ -61,27 +51,103 @@ nav ul li a.current{
   background-color: #407cc0;
 }
 @media (max-width: 998px){
+  #topnav{
+    background-color: white !important;
+  }
+  #navbarResponsive{
+    height: 100%;
+  }
   .navbar-nav{
     margin-top: 0px;
+  }
+  .navbar-nav a:hover{
+    border: 1px solid #407cc0;
+    transform: scale(1.1);
+    margin: 10px 0;
+
   }
 }
 /*||||||||||||||||||||||||||||||||*/
 /*   NAVIGATION BAR STYLES END   */
 /*|||||||||||||||||||||||||||||||*/
-#homescreen{
-  padding: 80px 0;
-  color: white;
+#landingContent{
+  padding-top: 130px;
+  padding-bottom: 40px;
 }
-.logo-tag{
-  margin-top: 10px;
-  font-size:1.2rem;
-  letter-spacing: 4px;
+#heroImg{
+  width: 750px;
+  height: 400px !important;
 }
-.tag-line{
-  letter-spacing: 7px;
-  word-spacing: 2px;
+#heroLogo{
+  width: 50% !important;
+  -webkit-filter: drop-shadow(1px 3px 2px #222);
+  filter: drop-shadow(1px 3px 2px #222);
 }
-.button-group .btn{
-  padding:20px 0;
-  ma
+#landingContent h5{
+  font-size: 16px;
+  margin-top: 6px;
+  letter-spacing: 3px;
+  color: #407cc0;
+  cursor: default;
+}
+#landingContent h4{
+  font-size: 38px;
+  margin-top: 6px;
+  letter-spacing: 2px;
+  color: #407cc0;
+  cursor: default;
+}
+#getStartedBtn{
+  margin-top: 15px;
+  background-color: #407cc0 !important;
+  min-width: 15vw;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  border: 1.5px outset #407cc0;
+}
+#getStartedBtn:hover{
+  transform: scale(1.05);
+}
+.animateFadeIn{
+  animation: fadeIn 2s ease-in-out both;
+  -webkit-animation: fadeIn 2s ease-in-out both;
+}
+.myShadow{
+  box-shadow: 0 0px 15px rgb(0,0,0,0.5);
+}
+.txtShadow{
+  text-shadow: 1px 1px 0 #ccc, 1px 2px 0 #ccc;
+}
+@keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
+}
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
+}
+@media (max-width: 998px){
+  #heroImg{
+    height: auto !important;
+  }
+  #getStartedBtn{
+    margin-top: 5px;
+  }
+}
+@media (max-width: 768px) {
+  #getStartedBtn{
+    font-size: 1em;
+  }
+  #landingContent h4{
+    font-size: 20px;
+    margin-top: 3px;
+  }
+  #heroLogo{
+    width: 35% !important;
+  }
+}
+.pseudoElement{
+  height: 100vh;
+  width: 100%;
+  background-color: blue;
 }
