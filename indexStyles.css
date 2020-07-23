@@ -1,0 +1,87 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 90px;
+  font-family: 'Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.header-bg{
+  height: 100vh;
+  width: 100%;
+  background: #407cc0;
+}
+#lol{
+  height: 100vh;
+  width: 100%;
+  background: grey;
+}
+/*||||||||||||||||||||||||||||||||*/
+/*  NAVIGATION BAR STYLES START  */
+/*|||||||||||||||||||||||||||||||*/
+.navbar-brand img{
+  height: 60px;
+}
+.fa-bars{
+/*  color: #ff3d34; */
+color: #407cc0;
+}
+#topnav{
+  transition: all 0.5s;
+  background-color: white;
+}
+.navbar-nav a{
+  /*color:#5f687b;*/
+  color:#407cc0;
+  opacity: 1;
+  font-size: 18px;
+}
+.navbar-nav a.active{
+  /*color: #ff3d34;*/
+  /*color: #1b94dd;*/
+  border: 1px solid transparent;
+  color:white;
+  background-color: #407cc0;
+}
+.navbar-nav a:hover{
+  opacity: 0.9;
+  border: 1px solid transparent;
+  color:#eee;
+}
+.navbar-shadow{
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0 0px 15px rgb(0,0,0,0.25);
+}
+.navbar-nav{
+  margin-top: 25px;
+}
+nav ul li a.current{
+  border: 1px solid transparent;
+  color:#eee;
+  background-color: #407cc0;
+}
+@media (max-width: 998px){
+  .navbar-nav{
+    margin-top: 0px;
+  }
+}
+/*||||||||||||||||||||||||||||||||*/
+/*   NAVIGATION BAR STYLES END   */
+/*|||||||||||||||||||||||||||||||*/
+#homescreen{
+  padding: 80px 0;
+  color: white;
+}
+.logo-tag{
+  margin-top: 10px;
+  font-size:1.2rem;
+  letter-spacing: 4px;
+}
+.tag-line{
+  letter-spacing: 7px;
+  word-spacing: 2px;
+}
+.button-group .btn{
+  padding:20px 0;
+  ma
+}
