@@ -52,6 +52,12 @@ nav ul li a.current{
   color:#eee;
   background-color: #407cc0;
 }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown>.dropdown-toggle:active {
+  pointer-events: none;
+}
 @media (max-width: 998px){
   #topnav{
   /*  border-bottom: 1px solid #407cc0;*/
