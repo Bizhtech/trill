@@ -18,24 +18,26 @@ color: #407cc0;
  -webkit-transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
   transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
   background-color: transparent;
-  border-bottom: 1px solid #407cc0;
-  font-family: 'Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family:'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#topnav .dropdown-menu-right{
+  right: auto !important;
+  background-color: white;
 }
 .navbar-nav a{
   /*color:#5f687b;*/
-  color:#407cc0;
+  color:black;
   opacity: 1;
   font-size: 18px;
-  font-family: 'Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .navbar-nav a.active{
   /*color: #ff3d34;*/
   /*color: #1b94dd;*/
-  border: 1px solid #407cc0;
   color:#407cc0;
 }
 .navbar-nav a:hover{
-  border: 1px solid #407cc0;
+  color:#407cc0;
   transform: scale(1.1);
   margin-left: 10px;
   margin-right: 10px;
@@ -52,10 +54,17 @@ nav ul li a.current{
 }
 @media (max-width: 998px){
   #topnav{
-    background-color: white !important;
+  /*  border-bottom: 1px solid #407cc0;*/
+  }
+  #topnav .fa-bars{
+    font-size: 1.5em;
   }
   #navbarResponsive{
     height: 100%;
+    background-color: white !important;
+  }
+  .navbar-brand img{
+    display: none
   }
   .navbar-nav{
     margin-top: 0px;
@@ -64,7 +73,6 @@ nav ul li a.current{
     border: 1px solid #407cc0;
     transform: scale(1.1);
     margin: 10px 0;
-
   }
 }
 /*||||||||||||||||||||||||||||||||*/
@@ -127,6 +135,9 @@ nav ul li a.current{
   100% { opacity: 1; }
 }
 @media (max-width: 998px){
+  #landingContent{
+    padding-top: 45px;
+  }
   #heroImg{
     height: auto !important;
   }
