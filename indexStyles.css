@@ -22,7 +22,7 @@ color: #407cc0;
 }
 #topnav .dropdown-menu-right{
   right: auto !important;
-  background-color: white;
+  background-color: #e6e6e6;
 }
 .navbar-nav a{
   /*color:#5f687b;*/
@@ -70,7 +70,7 @@ nav ul li a.current{
   }
   #navbarResponsive{
     height: 100%;
-    background-color: white !important;
+    background-color: #e6e6e6 !important;
   }
   .navbar-brand img{
     display: none
