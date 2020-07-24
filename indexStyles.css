@@ -189,7 +189,6 @@ nav ul li a.current{
   padding: 20px 0;
   text-align: center;
   /* display: block; */
-  border-bottom: 1px solid black;
 }
 #landingTransition h3{
   font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
@@ -208,6 +207,16 @@ nav ul li a.current{
   margin-bottom: 10px;
   width: 120px;
   border: 1px solid white;
+}
+#landingTransition::after{
+  content: '';
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  color: blue;
+  z-index: 10;
 }
 .carousel {
   background: transparent;
@@ -258,5 +267,59 @@ nav ul li a.current{
 .pseudoElement{
   height: 100vh;
   width: 100%;
-  background-color: blue;
+  background-color: #e6e6e6;
 }
+
+
+
+/*||||||||||||||||||||||||||||||||||||||*/
+/*         FEATURES STYLES START       */
+/*||||||||||||||||||||||||||||||||||||*/
+#features{
+  padding-top: 40px;
+}
+#features h1{
+  font-size: 1.5rem !important;
+  color: black;
+  margin-bottom: 0 !important;
+}
+#features p{
+  color: #aaa;
+}
+#leftFeatures {
+  justify-content: right;
+  text-align: right;
+}
+#ftDesc .row{
+  margin: 30px 0;
+}
+#ftDesc i{
+  color: #1c47c1;
+  padding: 10px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border: 1px solid #1c47c1;
+}
+#features .heading{
+  color:#1c47c1;
+}
+#features hr{
+  color:#1c47c1;
+  width: 20%;
+}
+@media (max-width:992px) {
+  #leftFeatures,#rightFeatures {
+    justify-content: center;
+    text-align: justify;
+  }
+  #ftDesc .row{
+    margin: 10px 0;
+  }
+}
+/*||||||||||||||||||||||||||||||||||||||*/
+/*         FEATURES STYLES END       */
+/*||||||||||||||||||||||||||||||||||||*/
