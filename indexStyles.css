@@ -63,7 +63,7 @@ nav ul li a.current{
 }
 @media (max-width: 992px){
   #topnav{
-  /*  border-bottom: 1px solid #407cc0;*/
+    background-color: #e6e6e6;
   }
   #topnav .fa-bars{
     font-size: 1.5em;
@@ -72,9 +72,9 @@ nav ul li a.current{
     height: 100%;
     background-color: #e6e6e6 !important;
   }
-  .navbar-brand img{
+  /*.navbar-brand img{
     display: none
-  }
+  }*/
   .navbar-nav{
     margin-top: 0px;
   }
@@ -151,9 +151,9 @@ nav ul li a.current{
   100% { opacity: 1; }
 }
 @media (max-width: 992px){
-  #landingContent{
+/*#landingContent{
     padding-top: 45px;
-  }
+  }*/
   #heroImg{
     height: auto !important;
   }
