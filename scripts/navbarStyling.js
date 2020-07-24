@@ -1,6 +1,6 @@
-var lastScrollTop = window.pageYOffset;
+var lastScrollTop = 0;
 window.addEventListener("scroll", function(){
-  if(window.innerWidth>998){
+  if(window.innerWidth>992){
      var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
      if (st > lastScrollTop){
         // downscroll code

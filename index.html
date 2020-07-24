@@ -14,12 +14,19 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/b58b7ae888.js" crossorigin="anonymous"></script>
 
   <!--FONT-->
   <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <!--carousel stylesheet-->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <!--AOS stylesheet-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- Custom styles for this template -->
   <link href="indexStyles.css" rel="stylesheet">
 
@@ -103,6 +110,59 @@
     </div>
   </section>
   <!--END OF LANDING CONTENT -->
+
+
+  <!--START OF LANDING TRANSITION-->
+  <section id="landingTransition">
+    <div class="heading">
+      <h2 class="text-center">Why Us?</h2>
+      <hr>
+    </div>
+    <div class="container-fluid">
+      <!-- Flickity HTML init -->
+      <div class="carousel"
+        data-flickity='{ "wrapAround": true, "adaptiveHeight": true, "autoPlay": 2500 }'>
+        <div class="carousel-cell" data-aos="zoom-in">
+          <div class="container">
+            <div class="text-center">
+              <img class="img-fluid" src="images/icons/icon-1.png" alt="Card image cap">
+              <h1 class="txtShadow">Creative Ideas</h1>
+              <p class="txtShadow">CASBN offers online collaboration solutions to increase productivity in workplace modernization. It offers an abundance of solutions on a single platform to help you build strong connections and propel business results without a glitch.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell" data-aos="zoom-in">
+          <div class="container">
+            <div class="text-center">
+              <img class="img-fluid" src="images/icons/icon-2.png" alt="Card image cap">
+              <h1 class="txtShadow">Low Cost</h1>
+              <p class="txtShadow">A single tool serving all your collaboration needs. You no longer have to switch between apps, as all features like messaging, audio and video calling, group file sharing, screen sharing have been integrated on a single platform.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell" data-aos="zoom-in">
+          <div class="container">
+            <div class="text-center">
+              <img class="img-fluid" src="images/icons/icon-3.png" alt="Card image cap">
+              <h1 class="txtShadow">Teamwork</h1>
+              <p class="txtShadow">Keep track of all the tasks and review the same by commenting, sharing your views, and by responding to the queries of your team members from any place on a single platform. Teamwork is essential to continual coordination.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell" data-aos="zoom-in">
+          <div class="container">
+            <div class="text-center">
+              <img class="img-fluid" src="images/icons/icon-4.png" alt="Card image cap">
+              <h1 class="txtShadow">Online Support</h1>
+              <p class="txtShadow">24/7 Support – Get in touch with us anytime you need help. Training videos will also be updated every day.You can also enable event analytics to analyze the performance of your webinar which will also help you in generating reports with important metrics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END OF LANDING TRANSITION-->
+
   <section id="lol" class="pseudoElement">
 
   </section>
@@ -125,6 +185,8 @@
   <script type="text/javascript">
       AOS.init();
   </script>
+  <!--carousel JavaScript-->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
   <!--Custom scripts for the template-->
   <script src="scripts/opacityReduction.js" charset="utf-8"></script>
