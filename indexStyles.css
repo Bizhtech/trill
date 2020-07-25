@@ -231,13 +231,14 @@ nav ul li a.current{
 /*     BEST-SOLUTIONS STYLES START     */
 /*||||||||||||||||||||||||||||||||||||*/
 #bestSol{
-  background-image: linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(100, 48, 148, .70)),url("images/sec2-bg"); /*width: 1920 height:1080*/
-  background-image: -webkit-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(100, 48, 148, .70)),url("images/sec2-bg.jpg");
-  background-image: -moz-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(100, 48, 148, .70)),url("images/sec2-bg.jpg");
+  background-image: linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sec2-bg.jpg"); /*width: 1920 height:1080*/
+  background-image: -webkit-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sec2-bg.jpg");
+  background-image: -moz-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sec2-bg.jpg");
+  background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center 53.1px;
+  background-position: center 55px;
   padding-top: 136px;
   color:white;
 }
@@ -304,4 +305,40 @@ nav ul li a.current{
 }
 /*||||||||||||||||||||||||||||||||||||||*/
 /*         FEATURES STYLES END       */
+/*||||||||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||||||||*/
+/*     GREAT-SOLUTIONS STYLES START    */
+/*||||||||||||||||||||||||||||||||||||*/
+#greatSol{
+  background-image: linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sc4-bg.png"); /*width: 1920 height:1080*/
+  background-image: -webkit-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sc4-bg.png");
+  background-image: -moz-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sc4-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 100px;
+  padding-top: 40px;
+  color:white;
+}
+#greatSol h1{
+  margin-bottom: 10px;
+}
+#greatSol p{
+  text-align: justify;
+}
+#greatSol a{
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+#greatSol hr{
+  border: 1px solid white;
+  width: 40%;
+}
+/*||||||||||||||||||||||||||||||||||||||*/
+/*      GREAT-SOLUTIONS STYLES END     */
 /*||||||||||||||||||||||||||||||||||||*/
