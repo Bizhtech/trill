@@ -12,13 +12,17 @@ window.addEventListener("scroll", function(){
         if (window.pageYOffset!==0) {
           if(window.innerWidth>992){
             document.getElementById("topnav").style.backgroundColor="white";
+                      document.getElementById("topnav").style.borderBottom="none";
           }
           else {
             document.getElementById("topnav").style.backgroundColor="#e6e6e6";
           }
+
+
         }
         else{
           document.getElementById("topnav").style.backgroundColor="transparent";
+          document.getElementById("topnav").style.borderBottom="1px solid black";
         }
   //document.getElementById("topnav").style.display="initial";
      }
