@@ -28,11 +28,17 @@
   <link href="indexStyles.css" rel="stylesheet">
   <link href="glide.core.min.css" rel="stylesheet">
   <link href="glide.theme.min.css" rel="stylesheet">
+  <link href="modalStyles.css" rel="stylesheet">
 
 </head>
 
 <body>
+  <div id="preloader" class="navbar-brand">
+    <div class="row justify-content-center">
+      <img src="images/logo/logoBlue.png">
+    </div>
 
+  </div>
   <!--START OF NAVIGATION -->
   <nav class="navbar fixed-top navbar-expand-lg fixed-top" id="topnav">
     <div class="container-fluid mx-5">
@@ -85,24 +91,24 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 order-2 order-lg-1 order-md-1">
-          <img class="img-fluid animateFadeIn" id="heroImg" src="images/hero.png" alt=""> <!--750 X 400 Banner of Application -->
+          <img class="img-fluid" id="heroImg" src="images/hero.png" alt="" data-aos="zoom-in"> <!--750 X 400 Banner of Application -->
         </div>
         <div class="col-md-4 order-1 order-lg-2 order-md-2">
           <div class="row">
             <a href="#home">
               <div class="d-flex justify-content-center">
-                <img id="heroLogo" src="images/logo/logoBlue.png" alt="" class="img-fluid animateFadeIn">
+                <img id="heroLogo" src="images/logo/logoBlue.png" alt="" class="img-fluid" data-aos="zoom-in">
               </div>
             </a>
           </div>
           <div class="row justify-content-center">
-            <h5 class="text-center animateFadeIn txtShadow">The Official App</h5>
+            <h5 class="text-center txtShadow" data-aos="zoom-in">The Official App</h5>
           </div>
           <div class="row justify-content-center">
-            <h4 class="text-center animateFadeIn txtShadow">A TAG LINE</h4>
+            <h4 class="text-center txtShadow" data-aos="zoom-in">A TAG LINE</h4>
           </div>
           <div class="row justify-content-center">
-            <a href="#" class="btn btn-primary animateFadeIn shadow" id="getStartedBtn">GET STARTED</a>
+            <a href="#" class="btn btn-primary shadow" id="getStartedBtn" data-aos="zoom-in">GET STARTED</a>
           </div>
         </div>
       </div>
@@ -529,6 +535,7 @@
   <script src="scripts/navbarShadow.js" charset="utf-8"></script>
   <script src="scripts/navbarStyling.js" charset="utf-8"></script>
   <script src="scripts/scrollTop.js" charset="utf-8"></script>
+  <script src="scripts/preloader.js" charset="utf-8"></script>
 </body>
 
 </html>
