@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+/*||||||||||||||||||||||||||||||||*/
+/*  NAVIGATION BAR STYLES START  */
+/*|||||||||||||||||||||||||||||||*/
+.navbar-brand img{
+  height: 55px;
+}
+.fa-bars{
+/*  color: #ff3d34; */
+color: #407cc0;
+}
+#topnav{
+ -webkit-transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
+  transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
+  background-color: transparent;
+  font-family:'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  border-bottom: 1px solid black;
+}
+#topnav .dropdown-menu-right{
+  right: auto !important;
+  background-color: #e6e6e6;
+}
+.navbar-nav a{
+  /*color:#5f687b;*/
+  color:black;
+  opacity: 1;
+  font-size: 15px;
+  font-family: 'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.navbar-nav a.active{
+  /*color: #ff3d34;*/
+  /*color: #1b94dd;*/
+  color:#407cc0;
+}
+.navbar-nav a:hover{
+  color:#407cc0;
+  transform: scale(1.1);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar-shadow{
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0 0px 15px rgb(0,0,0,0.25);
+}
+nav ul li a.current{
+  border: 1px solid transparent;
+  color:#eee;
+  background-color: #407cc0;
+}
+
+@media (min-width:999px) {
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+  }
+}
+@media (max-width: 992px){
+  #topnav{
+    background-color: #e6e6e6;
+  }
+  #topnav .fa-bars{
+    font-size: 1.5em;
+  }
+  #navbarResponsive{
+    height: 100%;
+    background-color: #e6e6e6 !important;
+  }
+  /*.navbar-brand img{
+    display: none
+  }*/
+  .navbar-nav{
+    margin-top: 0px;
+  }
+  .navbar-nav a:hover{
+    border: 1px solid #407cc0;
+    transform: scale(1.1);
+    margin: 10px 0;
+  }
+}
+/*||||||||||||||||||||||||||||||||*/
+/*   NAVIGATION BAR STYLES END   */
+/*|||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*      PRICING STYLES START      */
+/*|||||||||||||||||||||||||||||||*/
+section.pricing {
+  background: #e6e6e6;
+  background: linear-gradient(to right, #e6e6e6, #e9e9e9);
+  padding-top: 130px;
+  padding-bottom: 60px;
+}
+.txtShadow{
+  text-shadow: 1px 1px 0 #ccc, 1px 2px 0 #ccc;
+}
+#priceHeading{
+  margin-bottom: 0;
+}
+#titleHr{
+  border-bottom: 1px solid black;
+  width: 20%;
+  margin: 0 auto;
+}
+.pricing h5{
+  margin: 10px 0;
+  color: #555;
+}
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+  background-color: #0172d0;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .btn{
+    opacity: 0.8;
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+/*||||||||||||||||||||||||||||||||*/
+/*       PRICING STYLES END       */
+/*|||||||||||||||||||||||||||||||*/
