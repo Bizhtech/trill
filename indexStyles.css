@@ -342,3 +342,31 @@ nav ul li a.current{
 /*||||||||||||||||||||||||||||||||||||||*/
 /*      GREAT-SOLUTIONS STYLES END     */
 /*||||||||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||||||||*/
+/*        SCROLL-TOP STYLES START      */
+/*||||||||||||||||||||||||||||||||||||*/
+#scrollTop {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1030;
+  border: none;
+  outline: none;
+  background-color: #1c47c1;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+#scrollTop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/*||||||||||||||||||||||||||||||||||||||*/
+/*         SCROLL-TOP STYLES END       */
+/*||||||||||||||||||||||||||||||||||||*/
