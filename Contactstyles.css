@@ -39,9 +39,11 @@ color: #407cc0;
 }
 .navbar-nav a:hover{
   color:#407cc0;
-  transform: scale(1.1);
-  margin-left: 10px;
-  margin-right: 10px;
+  opacity: 0.7;
+  /* transform: scale(1.1); */
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  border-bottom: 1px solid #407cc0;
 }
 .navbar-shadow{
   width: 100%;
@@ -121,9 +123,55 @@ nav ul li a.current{
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 0 8px 0 rgba(68,67,67,.5);
+  /* height: 100vh; */
+  /* margin-left: 10px; */
+  /* margin-right: 100px; */
+
+}
+.FormHeading{
+  margin-top: 50px;
+  font-size: 45px;
+  /* border: 1px solid black; */
+}
+.form-control{
+  background-color: #e6e6e6 !important;
 }
 
-
+.NoMap{
+  background-color: #e6e6e6;
+}
+.Map{
+  padding: 0 !important;
+}
+.Info{
+  height:80vh;
+}
+.VisitUs{
+  margin-top: 80px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #062649 !important;
+}
+.SayHello{
+  margin-top: 10px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #062649 !important;
+}
+.AddressHeading{
+  font-size: 22px;
+  color: #062649 !important;
+}
+.ContactUsHeading{
+  font-size: 22px;
+  color: #062649 !important;
+}
+.ContactUsContent{
+  font-size: 18px;
+  color: #062649 !important;
+}
 
 
 
