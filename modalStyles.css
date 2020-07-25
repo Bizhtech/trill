@@ -1,0 +1,17 @@
+.modal-content{
+  background-color: #e6e6e6 !important;
+}
+
+.modal-content h3, .modal-content h4, .modal-title{
+  color: #407ce7;
+  letter-spacing: 2px;
+}
+.modal-content ul li{
+  font-weight: bold;
+}
+.modal-content p, .modal-content li{
+  color: #124f8b;
+}
+.modal-content p{
+  text-align: justify;
+}
