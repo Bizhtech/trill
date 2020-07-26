@@ -100,20 +100,54 @@ nav ul li a.current{
 	flex-wrap: wrap;
 	flex-direction: row;
 }
+#landingContent2 {
+	background-color:	#edf2f8; 	/*#f7f7ed;*/
+	height: auto;
+	/*height: 908px;*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+  padding-top: 94px !important;
+}
 
 .firstheading {
   margin: 40px 0px 30px 40px;
   color: #062649;
   width: 40%;
 }
+.firstheading2 {
+  margin: 40px 0px 30px 40px;
+  color: #062649;
+  /* width: 40%; */
+}
 
 .landingimg {
-	width: 55%; 
-	position: absolute; 
-	right: 0; 
+	width: 55%;
+	position: absolute;
+	right: 0;
 /*	top: 82px;*/
-	top: 94px; 
+	top: 94px;
 }
+.landingimg2 {
+	/* width: 100%; */
+	/* position: absolute;  */
+	right: 0;
+/*	top: 82px;*/
+	top: 94px;
+}
+
+.butt{
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #062649;
+  padding: 10px;
+  box-shadow: 0 0 8px 0 rgba(68,67,67,.5);
+}
+ .butt a{
+   text-decoration: none;
+   color: #062649;
+
+ }
 
 #sectionbox {
 	z-index: 1000;
@@ -121,9 +155,11 @@ nav ul li a.current{
 	margin-right: 60px;
 	margin-left: 60px;
 	border-radius: 20px;
-/*	border-style: solid;*/ 
+/*	border-style: solid;*/
 	box-shadow: 0px 0px 40px black ;
 	padding: 50px 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .box {
 	color: #062649;
@@ -136,7 +172,7 @@ nav ul li a.current{
 .minibox {
 	text-align: center;
 	background-color: #142952;
-	color: white; 
+	color: white;
 	padding: 20px 10px;
 	box-shadow: 0px 0px 40px black ;
 	margin: 0px 130px;
@@ -172,24 +208,24 @@ li {
 }
 
 .numbers {
-	padding-top: 10px; 
+	padding-top: 10px;
 	font-size: 5vw;
-	color: #062649; 
+	color: #062649;
 	text-align: center;
 }
 
 .definition {
 	font-size: 1.5vw;
-	color: #062649; 
+	color: #062649;
 	text-align: center;
 	padding-bottom: 40px;
 }
 
 .odefinition {
 	font-size: 1.5vw;
-	color: #062649; 
+	color: #062649;
 	text-align: center;
-	padding-bottom:20px; 
+	padding-bottom:20px;
 }
 
 .hours {
@@ -203,7 +239,7 @@ li {
 }
 
 .ohours {
-	margin: 50px 340px;
+	/* margin: 50px 340px; */
 	box-shadow: 0px 0px 40px #062649;
 	border-radius: 100%;
 
