@@ -17,13 +17,13 @@ color: #407cc0;
 #topnav{
  -webkit-transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
   transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
-  background-color: transparent;
+  background-color: white !important;
   font-family:'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   border-bottom: 1px solid black;
 }
 #topnav .dropdown-menu-right{
   right: auto !important;
-  background-color: #e6e6e6;
+  background-color: white;
 }
 .navbar-nav a{
   /*color:#5f687b;*/
@@ -64,14 +64,14 @@ nav ul li a.current{
 }
 @media (max-width: 992px){
   #topnav{
-    background-color: #e6e6e6;
+    background-color: white;
   }
   #topnav .fa-bars{
     font-size: 1.5em;
   }
   #navbarResponsive{
     height: 100%;
-    background-color: #e6e6e6 !important;
+    background-color: white !important;
   }
   /*.navbar-brand img{
     display: none
@@ -95,19 +95,20 @@ nav ul li a.current{
 /*      PRICING STYLES START      */
 /*|||||||||||||||||||||||||||||||*/
 section.pricing {
-  background: linear-gradient(to right, #e6e6e6, #e9e9e9);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   padding-top: 130px;
   padding-bottom: 60px;
 }
 .pricing .row h2, .pricing .row h5{
-  color: #1c47c1;
+  color: white;
 }
 .pricing .row hr{
-  border-bottom: 1px solid #1c47c1;
+  border-bottom: 1px solid #eee;
   width: 15%;
 }
 .txtShadow{
-  text-shadow: 1px 1px 0 #ccc, 1px 2px 0 #ccc;
+  text-shadow: 1px 1px 0 #111, 1px 2px 0 #111;
 }
 .basic{
   background-color: #D1375C !important;

@@ -15,13 +15,13 @@ window.addEventListener("scroll", function(){
                       document.getElementById("topnav").style.borderBottom="none";
           }
           else {
-            document.getElementById("topnav").style.backgroundColor="#e6e6e6";
+            document.getElementById("topnav").style.backgroundColor="#fff";
           }
 
 
         }
         else{
-          document.getElementById("topnav").style.backgroundColor="transparent";
+          document.getElementById("topnav").style.backgroundColor="#fff";
           document.getElementById("topnav").style.borderBottom="1px solid black";
         }
   //document.getElementById("topnav").style.display="initial";

@@ -65,27 +65,28 @@ color: #407cc0;
  -webkit-transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
   transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
   background-color: transparent;
-  font-family:'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Quicksand','Darker Grotesque','Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   border-bottom: 1px solid black;
 }
 #topnav .dropdown-menu-right{
   right: auto !important;
-  background-color: #e6e6e6;
+  background-color: #fff;
 }
 .navbar-nav a{
   /*color:#5f687b;*/
-  color:black;
+  color:var(--blue);
+  font-weight: bold;
   opacity: 1;
-  font-size: 15px;
-  font-family: 'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 16px;
+  font-family: 'Quicksand','Darker Grotesque','Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .navbar-nav a.active{
   /*color: #ff3d34;*/
   /*color: #1b94dd;*/
-  color:#407cc0;
+  color:blue;
 }
 .navbar-nav a:hover{
-  color:#407cc0;
+  color:blue;
   transform: scale(1.1);
   margin-left: 10px;
   margin-right: 10px;
@@ -94,6 +95,9 @@ color: #407cc0;
   width: 100%;
   border-radius: 2px;
   box-shadow: 0 0px 15px rgb(0,0,0,0.25);
+}
+nav ul li{
+  padding: 10px
 }
 nav ul li a.current{
   border: 1px solid transparent;
@@ -111,14 +115,14 @@ nav ul li a.current{
 }
 @media (max-width: 992px){
   #topnav{
-    background-color: #e6e6e6;
+    background-color: #fff;
   }
   #topnav .fa-bars{
     font-size: 1.5em;
   }
   #navbarResponsive{
     height: 100%;
-    background-color: #e6e6e6 !important;
+    background-color: #fff !important;
   }
   /*.navbar-brand img{
     display: none
@@ -144,7 +148,7 @@ nav ul li a.current{
 #landingContent{
   padding-top: 130px;
   padding-bottom: 40px;
-  background-color: #e6e6e6;
+  background-color: #fff;
 }
 #heroImg{
   width: 750px;
@@ -201,6 +205,18 @@ nav ul li a.current{
   0% { opacity: 0;}
   100% { opacity: 1; }
 }
+.fadeItOut{
+  animation: fadeout 2s ease-in-out both;
+  -webkit-animation: fadeout 2s ease-in-out both;
+}
+@keyframes fadeout {
+  0% { opacity: 1;}
+  100% { opacity: 0; }
+}
+@-webkit-keyframes fadeout {
+  0% { opacity: 1;}
+  100% { opacity: 0; }
+}
 @media (max-width: 992px){
 /*#landingContent{
     padding-top: 45px;
@@ -255,7 +271,7 @@ nav ul li a.current{
   background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 90%, 1) 0.2%, hsla(212, 50%, 50%, 1) 0.4%, hsla(212, 65%, 46%, 1) 0.6%, hsla(224, 75%, 43%, 1) 0.8%);
   background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 90%, 1) 0.2%, hsla(212, 50%, 50%, 1) 0.4%, hsla(212, 65%, 46%, 1) 0.6%, hsla(224, 75%, 43%, 1) 0.8%);
   background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 90%, 1) 0.2%, hsla(212, 50%, 50%, 1) 0.4%, hsla(212, 65%, 46%, 1) 0.6%, hsla(224, 75%, 43%, 1) 0.8%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#e6e6e6", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#fff", GradientType=1 );
 }
 
 .glide__slide--active{
