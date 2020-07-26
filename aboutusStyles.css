@@ -93,7 +93,7 @@ nav ul li a.current{
 
 
 #landingContent {
-	background-color:	#edf2f8; 	/*#f7f7ed;*/
+	background-color:	#e6e6e6; /*#edf2f8; */	
 	height: auto;
 	/*height: 908px;*/
 	display: flex;
@@ -101,7 +101,7 @@ nav ul li a.current{
 	flex-direction: row;
 }
 #landingContent2 {
-	background-color:	#edf2f8; 	/*#f7f7ed;*/
+	background-color:#e6e6e6;	/*#edf2f8; */	/*#f7f7ed;*/
 	height: auto;
 	/*height: 908px;*/
 	display: flex;
@@ -137,17 +137,17 @@ nav ul li a.current{
 }
 
 .butt{
-  background-color: white;
+  background-color: #2680d9;
   border-radius: 10px;
-  border: 2px solid #062649;
+  border: 1.5px solid #062649;
   padding: 10px;
-  box-shadow: 0 0 8px 0 rgba(68,67,67,.5);
+  box-shadow: 0 0 15px 0 rgba(68,67,67,.5);
 }
  .butt a{
    text-decoration: none;
-   color: #062649;
-
+   color: white;
  }
+
 
 #sectionbox {
 	z-index: 1000;
