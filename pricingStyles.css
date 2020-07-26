@@ -100,6 +100,10 @@ section.pricing {
   padding-top: 130px;
   padding-bottom: 60px;
 }
+.pricing table{
+  position: relative;
+  z-index: 2;
+}
 .pricing .row h2, .pricing .row h5{
   color: white;
 }
