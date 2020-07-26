@@ -85,6 +85,20 @@ nav ul li a.current{
     margin: 10px 0;
   }
 }
+
+nav .bl a::after {
+	content: '';
+	display: block;
+	height: 3px;
+	background-color: #174d82;
+/*	position: absolute;
+*/	top: 0;
+	width: 0%;
+	transition: all ease-in-out 175ms;
+}
+nav .bl a:hover::after{
+	width: 100%;
+}
 /*||||||||||||||||||||||||||||||||*/
 /*   NAVIGATION BAR STYLES END   */
 /*|||||||||||||||||||||||||||||||*/
