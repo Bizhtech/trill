@@ -60,7 +60,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact" onclick="closeNav()">FAQs</a>
+            <a class="nav-link" href="faq.html" onclick="closeNav()">FAQs</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html" onclick="closeNav()">Contact Us</a>
@@ -79,343 +79,271 @@
 
   <!-- START OF PRICING -->
   <section class="pricing">
-    <div class="container">
-      <h1 class="text-center txtShadow" id="priceHeading">OUR PRICING</h1>
-      <hr id="titleHr">
-      <h5 class="text-center txtShadow">Choose a plan that best suits your needs</h5>
-      <div class="row">
-        <!-- Free Tier -->
-        <div class="col-lg-4">
-          <div class="card mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="150">
-            <div class="card-body">
-              <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
-              <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
-              <hr>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Feugiat risus sitamet rutrum</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Lorem ipsul dolor sit amet.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Nam feugiat risus sitamet.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Feugiat risus sitamet rutrum.</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Praesent finibus.</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Feugiat risus sitamet rutrum</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Lorem ipsul dolor sit amet.</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Nam feugiat risus sitamet.</li>
-              </ul>
-              <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
-            </div>
-          </div>
-        </div>
-        <!-- Plus Tier -->
-        <div class="col-lg-4">
-          <div class="card mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="150">
-            <div class="card-body">
-              <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
-              <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
-              <hr>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Feugiat risus sitamet rutrum</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Lorem ipsul dolor sit amet.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Nam feugiat risus sitamet.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Feugiat risus sitamet rutrum.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Praesent finibus.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Feugiat risus sitamet rutrum</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Lorem ipsul dolor sit amet.</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Nam feugiat risus sitamet.</li>
-              </ul>
-              <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
-            </div>
-          </div>
-        </div>
-        <!-- Pro Tier -->
-        <div class="col-lg-4">
-          <div class="card" data-aos="fade-down" data-aos-delay="150">
-            <div class="card-body">
-              <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-              <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
-              <hr>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Feugiat risus sitamet rutrum</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Lorem ipsul dolor sit amet.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Nam feugiat risus sitamet.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Feugiat risus sitamet rutrum.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Praesent finibus.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Feugiat risus sitamet rutrum</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Lorem ipsul dolor sit amet.</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Nam feugiat risus sitamet.</li>
-              </ul>
-              <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
-            </div>
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="text-center txtShadow">Our Pricing</h2>
+        <hr>
+        <h5 class="text-center txtShadow">Choose a plan that suits your needs</h5>
       </div>
     </div>
+    <article>
+
+      <ul>
+        <li class="bg-purple">
+          <button>Self-Employed</button>
+        </li>
+        <li class="bg-blue">
+          <button>Simple Start</button>
+        </li>
+        <li class="bg-blue active">
+          <button>Essentials</button>
+        </li>
+        <li class="bg-blue">
+          <button>Plus</button>
+        </li>
+      </ul>
+
+      <table data-aos="zoom-in" data-aos-delay="250">
+        <thead>
+          <tr>
+            <th class="hide"></th>
+            <th class="bg-purple basic">Basic</th>
+            <th class="bg-blue standard">Standard</th>
+            <th class="bg-blue default advanced">Advanced</th>
+            <th class="bg-blue enterprise">Enterprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monthly price</td>
+            <td class="basic"><span class="txt-l">Free</span></td>
+            <td class="standard"><span class="txt-top">&dollar;</span><span class="txt-l">6.99</span></td>
+            <td class="default advanced"><span class="txt-top">&dollar;</span><span class="txt-l">14.99</span></td>
+            <td class="enterprise"><span class="txt-top">&dollar;</span><span class="txt-l">29.99</span></td>
+          </tr>
+          <tr>
+            <td colspan="5" class="sep">Tools</td>
+          </tr>
+          <tr>
+            <td>Team Channels</td>
+            <td class="basic"><span class="tick">&#10004;</span>(2 channels)</td>
+            <td class="standard"><span class="tick">&#10004;</span>(10 channels)</td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Private Team Channels</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Global Search</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>1:1 Chat</td>
+            <td class="basic"><span class="tick">&#10004;</span></td>
+            <td class="standard"><span class="tick">&#10004;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Group Chat</td>
+            <td class="basic"><span class="tick">&#10004;</span>(10 Users)</td>
+            <td class="standard"><span class="tick">&#10004;</span>(40 Users)</td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>1:1 Audio Call</td>
+            <td class="basic"><span class="tick">&#10004;</span></td>
+            <td class="standard"><span class="tick">&#10004;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Group Audio Call</td>
+            <td class="basic"><span class="tick">&#10004;</span>(45 mins/month)</td>
+            <td class="standard"><span class="tick">&#10004;</span>(24 hours/month)</td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>1:1 Video Call</td>
+            <td class="basic"><span class="tick">&#10004;</span>(30 calls/month)</td>
+            <td class="standard"><span class="tick">&#10004;</span>(100 calls/month)</td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Group Video Call</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>White Board</td>
+            <td class="basic"><span class="tick">&#10004;</span>(3 days 10 users)</td>
+            <td class="standard"><span class="tick">&#10004;</span>(20 users)</td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>File Sharing</td>
+            <td class="basic"><span class="tick">&#10004;</span>(1 GB/ USER)</td>
+            <td class="standard"><span class="tick">&#10004;</span>(5 GB/ USER)</td>
+            <td class="default advanced"><span class="tick">&#10004;</span>(50 GB/ USER)</td>
+            <td class="enterprise"><span class="tick">&#10004;</span>(1 TB/ USER)</td>
+          </tr>
+          <tr>
+            <td>Meetings</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span>(10 Meetings/ USER)</td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>1:1 Screen Sharing</td>
+            <td class="basic"><span class="tick">&#10004;</span>(3 days)</td>
+            <td class="standard"><span class="tick">&#10004;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Group Screen Recording</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span>(500 mins/month)</td>
+            <td class="enterprise"><span class="tick">&#10004;</span>(5000 mins/month)</td>
+          </tr>
+          <tr>
+            <td>Document Collaboration</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td colspan="5" class="sep">Support</td>
+          </tr>
+          <tr>
+            <td>Document Collaboration</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span>(2 Admin Accounts)</td>
+            <td class="enterprise"><span class="tick">&#10004;</span>(5 Admin Accounts)</td>
+          </tr>
+          <tr>
+            <td>Internal IT Support<br>Helpdesk cases for users</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Insights and Analytics</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Monitoring Tools<br>IT Teams</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Support Level</td>
+            <td class="basic">Help Center & Customer Resource Center</td>
+            <td class="standard">Help Center & Customer Resource Center</td>
+            <td class="default advanced">24/7 Support, 24hrs initial response time</td>
+            <td class="enterprise">24/7 Support, 4hrs initial response time</td>
+          </tr>
+          <tr>
+            <td>Dedicated Support Team</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10008;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Priority Resolution</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>99.999% Guaranteed uptime SLA</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>Single Sign-in (SS0)</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td>MFA</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10004;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td colspan="5" class="sep">Integration</td>
+          </tr>
+          <tr>
+            <td>Active Directory Integrations</td>
+            <td class="basic"><span class="tick">&#10008;</span></td>
+            <td class="standard"><span class="tick">&#10008;</span></td>
+            <td class="default advanced"><span class="tick">&#10008;</span></td>
+            <td class="enterprise"><span class="tick">&#10004;</span></td>
+          </tr>
+          <tr>
+            <td colspan="5" class="sep">Internal Corporate Newsfeed</td>
+          </tr>
+          <tr>
+            <td>Pick your plan</td>
+            <td class="basic"><span>$5 per user billed monthly (5000 users)</span></td>
+            <td class="standard"><span>$4 per user billed monthly (5000-10000 users)</span></td>
+            <td class="advanced"><span>$3 per user billed monthly (10000-20000 users)</span></td>
+            <td class="enterprise"><span>Contact Us (>20000 users)</span></td>
+          </tr>
+          <tr>
+            <td>CASBN Room Connector</td>
+            <td class="basic"><span>$39.99 per user</span></td>
+            <td class="standard"><span>$39.99 per user</span></td>
+            <td class="advanced"><span>$39.99 per user</span></td>
+            <td class="enterprise"><span>$39.99 per user</span></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="basic"><a href="#" class="btn btn-primary">SELECT</a></td>
+            <td class="standard"><a href="#" class="btn btn-primary">SELECT</a></td>
+            <td class="advanced"><a href="#" class="btn btn-primary">SELECT</a></td>
+            <td class="enterprise"><a href="#" class="btn btn-primary">SELECT</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </article>
   </section>
+
   <!-- END OF PRICING -->
-  <!-- Start of Modals -->
-  <!-- Modal START-->
-  <div class="modal fade bd-example-modal-lg" id="teamModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Team Channels</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <img class="img-fluid" src="images/sc4-bg.png" alt="">
-              </div>
-              <div class="col-md-12">
-                <h3 class="my-3">Team Channels</h3>
-                <p>Channels are the medium where ideas are filtered, and designs are executed. Casbn team channels has been designed with attractive features that drive communication and increase productivity. You have the flexibility to categorize your audience and have various and multiple channels when using Casbn. For example, you could create a public channel if you needed to communicate to all members of the organization globally or if you wish to share an information with everyone. Or, you could create a private channel for specific teams within your organization to share information that is only specific to certain group of people. A channel each for finance, marketing, manufacturing, and so on. Communication is an integral part of any business or organization. To uphold this integrity emails alone are not sufficient. Casbn is an advanced communication platform that brings together the messenger, audio and video calling, screen sharing, whiteboarding, and many such features under a single platform, making the communication more efficient and user-friendly.</p>
-                <h3 class="my-3">Team Channel Task</h3>
-                <p>With Team Channels Task feature you could break down the high-end tasks into subtasks and prioritize them according to the timelines and due dates with no necessity to sit together in a room and collaborate face-to-face. Once the tasks have been allocated to the team, each team member can: </p>
-                
-                <h3>Team Channel Project </h3>
-                <p>The Team Channel Project feature allows you to divide the requirements of a specific project into different categories. This helps in segregating the tasks to each team, following which you can assign privileged access to specific teams to access the documents and every information about the project they are associated with. The project details screen enables you to edit the name of the project, choose the audience for the project, create team pages, and to choose a layout or a list for the project screen. A wide range of custom templates are available to choose from. These templates can be edited based on your requirements. Other features allow you to give a project description under a column, duplicating the project or exporting your project to another team, layout structuring, template conversion, and archiving and deleting the project. Moving project data from one team to another is a tedious task. It would require you to create a new project altogether and manually add all the existing information onto the new platform. Casbn makes it easy for you in exporting the current project to a new team. Each project shall have one owner, but the members are not limited. Editing can be done by the owner as well as by the team members. The owner can manage the notifications coming in by each of the members. The notification settings will receive alerts every time a status has been changed or updated, and when a message is received. The status updated by the project owner would reflect in the notification list of every team member conversely. </p>
-                <h3>Team Channel Visual Boards</h3>
-                <p>Visual boards grasp your attention, and keep you hooked to the tasks and the overall workflow of the project. Save all your data in one place and easily drag and drop tasks to picturize the work progress. We minimize the investment of your time by cutting down your requirement to search for documents online, as all the documents will be saved securely and can be accessed easily at any point of time. Track the number of hours spent on each project and the time invested by each team member and convert this data into meaningful insights. </p>
-                <h3>Team Channel Messenger</h3>
-                <p>Every business requires a sophisticated tool to communicate with your teammates, brainstorm ideas, to identify resolutions, and to administer projects. Chat messengers are not just tools - they are a contemporary office. Strong Communication is allied to a strong culture, and all organizations are different and so is their culture, this is probably the reason chat messengers are emerging rapidly in the market.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal END-->
 
-  <!-- Modal START-->
-  <div class="modal fade bd-example-modal-lg" id="newsModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Digital Solutions</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <img class="img-fluid" src="images/sc4-bg.png" alt="">
-              </div>
-              <div class="col-md-12">
-                <h3 class="my-3">News Feed</h3>
-                <p>In daily life, isn’t that the first thing that we do in the morning? Checking out news feed on our social media accounts. Why not stay up to date on the professional front? Casbn News Feed is a tailored guide to know what is going on in an organization. Helping you stay in loop and have access to the correct information about every important update concerned within the organization and allowing you to stay in sync to reduce the chances of missing an important event or update.</p>
-                <h3 class="my-3">Does Facebook let you switch from a personal account to your work account on a single platform – No!?</h3>
-                <p>Casbn News Feed is a blend of advanced technologies that brings you updates about projects that you are associated with through a scrolling stream of informative posts that you can respond to. Like, comment, and react to the posts on the news feed, a quick check on the latest posts, invites, updates, or notices to save your time and reduce the chances of you or your workforce missing an important event at your organization. Our news feed assures that your posts capture the attention of the relevant people at the right time. The targeted audience of your post can like, comment, and react, this helps you to get prompt feedback or acknowledgement for what you share. The higher authorities in the organization too can take a tour of the news feed to access the activities going on in the organization. This allows them to stay connected with even the smallest events happening within their organization. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal END-->
-
-  <!-- Modal START-->
-  <div class="modal fade bd-example-modal-lg" id="webinarModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Webinars</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <img class="img-fluid" src="images/sc4-bg.png" alt="">
-              </div>
-              <div class="col-md-12">
-                <h3 class="my-3">Webinars</h3>
-                <p>In this era of marketing, organizations have made webinars their new home. The use of webinars is growing day by day. Why? Because webinars are the perfect choice for organizations to provide value to their users. It helps them in the lead generation process and increases their online engagement. Presenting a nice and informative webinar on an important topic is all it takes to convince your leads for business. Due to the current pandemic situation, cancellation of events, conferences, and tradeshows is compelling organizations to change their strategies and marketing tactics overnight. Given the current scenario, organizations are making webinars a strong strategy to stay in the market. According to a research, almost 61% of marketing personnel use webinars as an approach to their content marketing strategy. Almost 61% of webinars conducted in a year are hosted by B2B companies. On an average every organization conducts 23 webinars a year. Roughly 73% of B2B marketing personnel prefer webinars as they say it turns in almost 20%-40% of attendees of their webinars as positive leads. </p>
-                <h3>Casbn is the global hub for live webcasting and video streaming for organizations. </h3>
-                <ul>
-                  <li>Full-Functional Webcasting</li>
-                  <p>A simplified webcast solution integrated with featured engagement tools and a high-end audio-video set-up.</p>
-                  <li>High Definition Video Streaming</li>
-                  <p>Versatile high definition video streaming with no bandwidth interruption. Host webinars and telecast quality video to any number of people with supreme scalability. </p>
-                  <li>Broadcasting on the Go</li>
-                  <p>Provide upcoming announcement for your organization, or host a big meeting to impress your teammates and clients with an all-hands interactive webinar. Casbn helps you with smart and easy event management, it helps you get insights of attendee data and performance. You can also create video pools, share screens, and more to boost audience engagement. Once a webinar has been set-up automatic e-mails and follow-up e-mails will be sent to the attendees. Casbn Webinars are for professionals who have a story to tell.</p>
-                  <li>Marketing</li>
-                  <p>Webinars that grow your business. Augment the effectiveness of webinar marketing, external/internal communication, and training. Schedule, connect, and convert prospective leads. With webinar marketing, you can now boost your brand, generate novel leads, train your team, and influence buyers. </p>
-                  <li>Branding and Personalization</li>
-                  <p>Personalize your webinar registration forms and highlight your emails with logo and colors. </p>
-                  <li>Programmed Communication</li>
-                  <p>Casbn swiftly supervises notifications, reminders, and email invitations. </p>
-                  <li>Webinar Statistics</li>
-                  <p>Casbn presents analytics on webinar performance to help you understand how well the webinar was performed. </p>
-                  <li>Consolidated Webinar Pivot</li>
-                  <p>Now access our webinar library to store and share your stuff.</p>
-                  <li>Global Reach</li>
-                  <p> We help you take your webinars to the right audience.</p>
-                  <li>Amalgamation</li>
-                  <p>Synchronize your data, participant information, and other data on Casbn to your personal computers or laptop. Give your online events a transformation by engaging yourself into real-time experiences which helps you build an interactive environment for your participants. Hosting webinars should not be troublesome. Expose yourself to our webinar services which eliminate your confusions and let you concentrate on your presentations.</p>
-                  <li>Bring In the crowd</li>
-                  <p>Boost your webinars with our personalized webinar invites, listing page, and automatic email reminders.</p>
-                  <li>Lively Webinars</li>
-                  <p>Our simplified webinar platform makes your presentations worthwhile. Casbn also offers highly engaging features in the webinar tool so that your users will stay hooked to your session. The meeting dashboard gives you every detail about your participant engagement and a brief timeline of the event. During the presentation, keep the participants glued to their screens by using our polls and survey feature which help you engage them with live questions and answers. Webinars and events can be recorded and reused any number of times to garner viewers. You can also save the participant data in the server and access it at any point of time without any hassle. Automated webinars are now a trend as they let you keep things ready days before the presentation. You can create personalized email invites, reminders, and more. Make the best use of the survey feature so that you can get a feedback from the participants on your presentation and help you improve in every step to make your future presentations get better reactions from the participants. Recorded webinars can be scheduled ahead of time on participant demand, this will help you out if you have the fear to face live audience. Download reports of participant attendance, check their interaction level, see their response, and more. The participant attendance report gives you the information on the list of participants who attended the webinar. You can also enable event analytics to analyze the performance of your webinar which will also help you in generating reports with important metrics.</p>
-                </ul>
-                <h3>You can confidently lay your trust on our webinar focused tools and features:</h3>
-                <ol>
-                  <li>24/7 Support – Get in touch with us anytime you need help. Training videos will also be updated every day.</li>
-                  <li>Reports and Analytics – Check the performance of your webinars with detailed information.</li>
-                  <li>Participant preview – Get access to the participant viewing screen to help know how your presentation appears to them.</li>
-                  <li>Manage your audience – Choose the size of your audience, authorize the audience who register for the webinar, mute/unmute the participants during the interaction phase of your presentation.</li>
-                  <li>Channel page - Go ahead and broadcast your webinar on your central page with a customs link.</li>
-                  <li>Personalized Questionnaire – Create forms in the registration page to get useful data from the participants.</li>
-                  <li>Whiteboard – Exemplify your thoughts on the screen using the drawing tools with whiteboard.</li>
-                  <li>Automated Emails – Enable automated emails and reminders to send across to your team or to your participants with the click of a button.</li>
-                  <li>Webinar Board – Prioritize and edit webinar dates and information in simple steps.</li>
-                  <li>File Sharing – Share files with participants to download and view during the webinar.</li>
-                  <li>Screen Sharing – Share your screen at the blink of an eye.</li>
-                  <li>Participant joining made simple – All it takes for your participants to join the meeting is a browser and the link.</li>
-                  <li>Survey – Create quick surveys to collect extra information from the participants and to keep them engaged during the webinar with our polls and survey feature.</li>
-                  <li>Q&A Feature – Casbn gives you the benefit of responding to the questions asked by the participants privately or publicly.</li>
-                  <li>Event Recording – Record your video with HD quality, clear audio, and clean content captures by enabling the automated recorder option.</li>
-                  <li>Event Recording – Record your video with HD quality, clear audio, and clean content captures by enabling the automated recorder option.</li>
-                  <li>Templates – Choose from a wide range of templates to simplify your work and to make your pages and screens to look appealing.</li>
-                  <li>Video Sharing – Share videos, video links, and more visuals with the audience to keep them engaged in the webinar.</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal END-->
-
-  <!-- Modal START-->
-  <div class="modal fade bd-example-modal-lg" id="collabModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Collaboration Tools</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <img class="img-fluid" src="images/sc4-bg.png" alt="">
-              </div>
-              <div class="col-md-12">
-                <h3 class="my-3">Collaboration Tools</h3>
-                <p>A highly secure collaboration platform Streamline the collaboration of your team without any compromise on security. Casbn has been designed for organizations that need advanced security to safeguard their documents and communications established across their teams, fellow employees, and clients. We offer extensive scalability to organizations and managerial tools that help in controlling teams and help analyze work progress.</p>
-                <ul>
-                  <li>High end encryption to all the features</li>
-                  <li>A single tool for audio and video calls, messaging, screen sharing, group file sharing, and whiteboard.</li>
-                  <li>Fully executive controls</li>
-                  <li>Audio and Video calls on a click</li>
-                  <li>Large file sharing in no time</li>
-                </ul>
-                <h4>First Class security</h4>
-                <p>The source code of Casbn is fully transparent, and all messages are encrypted independently with a key so that the communication stays secure regardless of the network used by you, be it a public Wi-Fi or a secure network. Unlike other collaboration tools, Casbn does not use keys to decrypt your communications. We are a real-time example of well-developed security messaging. This solution is user-friendly and can be accessed on all major platforms.</p>
-                <h4>Cut Down on costs and Increase Productivity</h4>
-                <p>A single tool serving all your collaboration needs. You no longer have to switch between apps, as all features like messaging, audio and video calling, group file sharing, screen sharing have been integrated on a single platform. Your team will significantly enjoy the interface, its innovative features, and the user experience overall. No more of wasting time on searching updates in your email or handling invites to conference calls. You can now indulge in group chats, set up audio/video or conference calls all at the click of a button.</p>
-                <h4>Project Planning</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>
-                <h4>Project Strategy</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal END-->
-
-  <!-- Modal START-->
-  <div class="modal fade bd-example-modal-lg" id="fsModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">File Sharing</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <img class="img-fluid" src="images/sc4-bg.png" alt="">
-              </div>
-              <div class="col-md-12">
-                <h3 class="my-3">File Sharing</h3>
-                <p>This solution of Casbn is clearly the best choice for document management and file synchronization. The File Sharing feature of Casbn allows you to share documents and folders with your team mates through direct messages and also through team channels. Upload and share files with the entire team! Give your team the access to unlimited files, so they can refer, edit, preview, and download at the click of a button. The file formats could range from spreadsheets, PDF, presentations, graphic/video projects, vector graphics and more.</p>
-                <h4>Upload and share files with the entire team!</h4>
-                <p>You can now upload single files as well as multiple files and share them on multiple team channels to a set of people in no time at a brisk pace. Every time a document has been edited; the latest version of the document will reflect on your board. However, the old document would still be saved so it can be recovered at any given time. You can control the access rights of teammates to the uploaded files, set permission as to who can review it, who can edit it, who can download it and more. You can keep a complete track of the documents stored on the server, and you will be notified every time a teammate has edited any part of the document. These files can be posted in the newsfeed if you want other teams to give feedback on your project/document. You no longer have to worry about requesting large files through mail, with Casbn you can request up to 300 files at a time easily with just a drag and drop feature. File size is no longer a limitation, as this feature supports large files. The File Sharing solution has a distinct comments section where each person who has the right to access the file can comment on the file. You can also create tasks, request files from other team mates, and allocate document approvals Files can be uploaded for self-use and will remain completely private as in a personal drive. If desired, it can be shared with other users or teammates in numerous ways. You can also upload files in team channels or a workgroup which shall make the file visible to all the team members of that specific team channel. Work together on documents, edit them, give comments, give/receive feedback, collaborate real-time. You can also restrict the team members from editing the documents. This solution has a robust search feature which lists the files, their versions, messages and other data. The important file/folder can be starred so that they will be easily accessible when searched.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal END-->
-
-  <!-- Modal START-->
-  <div class="modal fade bd-example-modal-lg" id="dcModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">File Sharing</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <img class="img-fluid" src="images/sc4-bg.png" alt="">
-              </div>
-              <div class="col-md-12">
-                <h3 class="my-3">Document Collaboration</h3>
-                <p>According to research, on an average a working professional spends 7% of his working time on searching and assembling data. And almost 39% of professionals find it tedious to share the documents with teammates. Approximately, 49% of professionals find it difficult in tracing documents; 43% of them find it complex to share files and documents; and 33% of professionals get stuck in sorting out multiple versions of a document.</p>
-                <h4>Although latest technologies have made things so simple, why is document collaboration so difficult?</h4>
-                <p>Let us take an example of a content marketing report. To prepare this report a user must have to go through huge volume of data to search across several tools and sheets, list the number of downloads and more to bring out the data that the organization has produced for that particular month. Data needs to be pulled out from multiple files and platforms. This process gets more intricate when it requires collaboration with other teammates to prepare this report. For a team to work efficiently in this process, data or documents should be organized in a specific folder or at least on a single platform. Are you still thinking of traditional ways to sort this issue? Casbn makes it easy for you! We live in a world where machines/software are making it easy. Why not make your work easy instead of wasting your valuable time? Why not choose a document collaboration tool to work smart? Document collaboration tools let teammates edit, view, and collaborate together on one document without having the need to share edited document attachments in an email. Some of the reports reveal that using a document collaboration tool made a relevant work, 33% faster. And on an average it is found that a team member sends 15 emails per day to share documents, attachments and more, because of which approximately 59% of team leads missed out on this important information as they failed to get their hands on this data that was stuck amid a large pile. Document collaboration tools are vital for teams who are working together, mapping workflows, and eradicating incompetence. Casbn is the best platform one would want to choose because of the real-time solutions it offers to one and all. It is a real-time collaboration tool that can help an organization in simplifying the work of its workforce. When a team works hand in hand on the same deliverable, a document collaboration tool will reduce the fuss and make work simple. You can also undo a functionality which has been edited, in addition to this, Casbn lets you to access previous versions of a document if need be. All of us have a memory of sending a mail on a wrong window, or that we would have missed out to write something in the mail. There is no chance of making these errors, as Casbn’s document collaboration tool gives you the option of controlling the audience who can access your files. In situations where a new employee is being trained, there are certain instructions and files a user must refer to which can be tracked by the organization. Casbn also gives you an important feature that helps you organize your files in a vault which can be easily accessed by you when a requirement demands different documents from a team. Practically speaking, Casbn is more than a collaboration tool. It is a comprehensive database that allows you to obtain, save, and share data swiftly with your teammates or with anyone who needs to get access to the data. The user interface is undoubtedly clean and beautiful, its high-end formatting options gives a new touch to your documents and content. Our dashboards allow you to track the progress of your projects. With Casbn your files are end-to-end encrypted and are cent percent secure. Project analytics are so clearly generated that it can show you as to which part of the file did the customers stay engaged. Your clients can now easily view a document that has been shared by you without having the necessity to sign up for this platform. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal END-->
-  <!--END OF MODALS-->
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
@@ -440,6 +368,7 @@
   <script src="scripts/navBarClose.js" charset="utf-8"></script>
   <script src="scripts/navbarShadow.js" charset="utf-8"></script>
   <script src="scripts/navbarStyling.js" charset="utf-8"></script>
+  <script src="scripts/pricing.js" charset="utf-8"></script>
 </body>
 
 </html>
