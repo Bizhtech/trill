@@ -53,8 +53,8 @@ nav ul li{
 }
 nav ul li a.current{
   border: 1px solid transparent;
-  color:#000;
-  background-color: #000;
+  color:#174d82;
+  background-color: #174d82;
 }
 
 @media (min-width:999px) {
