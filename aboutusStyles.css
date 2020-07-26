@@ -89,7 +89,7 @@ nav ul li a.current{
     margin: 10px 0;
   }*/
 }
-nav a::after {
+nav .bl a::after {
 	content: '';
 	display: block;
 	height: 3px;
@@ -98,12 +98,9 @@ nav a::after {
 */	top: 0;
 	width: 0%;
 	transition: all ease-in-out 175ms;
-
 }
-
-nav a:hover::after{
+nav .bl a:hover::after{
 	width: 100%;
-
 }
 /*||||||||||||||||||||||||||||||||*/
 /*   NAVIGATION BAR STYLES END   */
