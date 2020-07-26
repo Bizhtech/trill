@@ -257,7 +257,7 @@ li {
 
 }
 
-.circle {
+/*.circle {
 	width: 100px;
 	height: 100px;
 	border-radius: 100px;
@@ -267,7 +267,7 @@ li {
 	align-items: center;
 	font-size: 2.5vw;
 	color: white;
-/*	margin-left: 50%;*/
+	margin-left: 50%;
 }
 
 .bigcircle {
@@ -280,4 +280,4 @@ li {
 	align-items: center;
 	font-size: 4vw;
 	margin-left: 50%;
-}
+}*/
