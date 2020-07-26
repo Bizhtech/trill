@@ -139,8 +139,8 @@ nav a:hover::after{
 }
 
 .landingimg {
-	width: 55%;
-	position: absolute;
+/*	width: 55%;
+*/	position: absolute;
 	right: 0;
 /*	top: 82px;*/
 	top: 94px;
