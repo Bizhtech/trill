@@ -74,22 +74,16 @@ color: #407cc0;
 }
 .navbar-nav a{
   /*color:#5f687b;*/
-  color:var(--blue);
+  /*color:var(--blue);*/
   font-weight: bold;
   opacity: 1;
-  font-size: 16px;
+  /*font-size: 16px;*/
   font-family: 'Quicksand','Darker Grotesque','Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .navbar-nav a.active{
-  /*color: #ff3d34;*/
+  color: #174d82;
   /*color: #1b94dd;*/
-  color:blue;
-}
-.navbar-nav a:hover{
-  color:blue;
-  transform: scale(1.1);
-  margin-left: 10px;
-  margin-right: 10px;
+  /*color:blue;*/
 }
 .navbar-shadow{
   width: 100%;
@@ -135,6 +129,19 @@ nav ul li a.current{
     transform: scale(1.1);
     margin: 10px 0;
   }
+}
+nav .bl a::after {
+	content: '';
+	display: block;
+	height: 3px;
+	background-color: #174d82;
+/*	position: absolute;
+*/	top: 0;
+	width: 0%;
+	transition: all ease-in-out 175ms;
+}
+nav .bl a:hover::after{
+	width: 100%;
 }
 /*||||||||||||||||||||||||||||||||*/
 /*   NAVIGATION BAR STYLES END   */
