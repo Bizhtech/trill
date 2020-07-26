@@ -65,7 +65,7 @@ color: #407cc0;
  -webkit-transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
   transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
   background-color: transparent;
-  font-family: 'Quicksand','Darker Grotesque','Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   border-bottom: 1px solid black;
 }
 #topnav .dropdown-menu-right{
@@ -74,22 +74,19 @@ color: #407cc0;
 }
 .navbar-nav a{
   /*color:#5f687b;*/
-  color:var(--blue);
+  /*color:var(--blue);*/
   font-weight: bold;
   opacity: 1;
-  font-size: 16px;
-  font-family: 'Quicksand','Darker Grotesque','Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  /*font-size: 16px;*/
+  font-family: 'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .navbar-nav a.active{
-  /*color: #ff3d34;*/
+  color: #174d82;
   /*color: #1b94dd;*/
-  color:blue;
+  /*color:blue;*/
 }
-.navbar-nav a:hover{
-  color:blue;
-  transform: scale(1.1);
-  margin-left: 10px;
-  margin-right: 10px;
+.dropdown-item{
+  color:#007bff;
 }
 .navbar-shadow{
   width: 100%;
@@ -130,11 +127,19 @@ nav ul li a.current{
   .navbar-nav{
     margin-top: 0px;
   }
-  .navbar-nav a:hover{
-    border: 1px solid #407cc0;
-    transform: scale(1.1);
-    margin: 10px 0;
-  }
+}
+nav .bl a::after {
+	content: '';
+	display: block;
+	height: 3px;
+	background-color: #174d82;
+/*	position: absolute;
+*/	top: 0;
+	width: 0%;
+	transition: all ease-in-out 175ms;
+}
+nav .bl a:hover::after{
+	width: 100%;
 }
 /*||||||||||||||||||||||||||||||||*/
 /*   NAVIGATION BAR STYLES END   */
