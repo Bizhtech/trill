@@ -94,7 +94,7 @@ nav ul li a.current{
 /*|||||||||||||||||||||||||||||||*/
 
 #landingContent {
-	background-color:	#e6e6e6; /*#edf2f8; */
+	background-color:	#fff; /*#edf2f8; */
 	height: auto;
 	/*height: 908px;*/
 	display: flex;
@@ -102,7 +102,7 @@ nav ul li a.current{
 	flex-direction: row;
 }
 #landingContent2 {
-	background-color:#e6e6e6;	/*#edf2f8; */	/*#f7f7ed;*/
+	background-color:#fff;	/*#edf2f8; */	/*#f7f7ed;*/
 	height: auto;
 	/*height: 908px;*/
 	display: flex;
@@ -195,7 +195,7 @@ li {
 }
 
 .thirdsec {
-	background-color:#e6e6e6; /*#edf2f8;;*/
+	background-color:#fff; /*#edf2f8;;*/
 	display: flex;
 	flex-direction: row;
 }
