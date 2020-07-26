@@ -149,11 +149,14 @@ nav ul li a.current{
 #heroImg{
   width: 750px;
   height: 400px !important;
+
 }
 #heroLogo{
   width: 50% !important;
   -webkit-filter: drop-shadow(1px 3px 2px #222);
   filter: drop-shadow(1px 3px 2px #222);
+  animation: spin 20s linear infinite;
+  -webkit-animation:spin 20s linear infinite;
 }
 #landingContent h5{
   font-size: 16px;
