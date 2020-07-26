@@ -118,8 +118,6 @@ section.faq {
     margin-bottom: .1rem;
     padding: 1rem;
     text-align: center;
-
-
 }
 
 .question{
@@ -127,8 +125,6 @@ section.faq {
     color: #1e3c5f;
     padding: 0.2rem;
     border-radius: 2rem;
-
-
 }
 .faqSection-link{
     font-size: 20px;
@@ -145,19 +141,13 @@ section.faq {
     border-width: 2.3px;
     margin: 0 auto;
     border-radius: 50px;
-
-
 }
-
 .faqSection-link ion-icon{
     color:#0c478b;
     padding: .5rem;
-
 }
-
 #remove{
     display: none;
-
 }
 .answer{
     max-height: 0;
@@ -218,8 +208,6 @@ section.faq {
     --light: #fff;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   }
-
-
 #faq{
     color: white;
     align-content: center;
