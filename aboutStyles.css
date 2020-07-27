@@ -226,12 +226,13 @@ nav .bl a:hover::after{
 #whyUsCard{
   background-color: white;
   border: 1px solid black;
-  box-shadow: 30px 15px 40px #062649;
+  box-shadow: 0px 0px 30px #062649;
   border-radius: 20px;
   margin-top: -82px;
   position: relative;
   z-index: 1000;
   padding-bottom: 40px;
+  color: #062649;
 }
 #whyUs ul{
   list-style: none;
@@ -285,6 +286,8 @@ nav .bl a:hover::after{
 /*      COUNTER STYLES START      */
 /*|||||||||||||||||||||||||||||||*/
 #hoursCounter{
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: linear-gradient(-90deg, #006699, #062649);
   background: -webkit-linear-gradient(-90deg, #006699, #062649);
   background: -moz-linear-gradient(-90deg, #006699, #062649);
@@ -323,7 +326,7 @@ nav .bl a:hover::after{
   margin: 0 auto;
 }
 #testimonials .card{
-  height: 250px;
+  height: auto;
   transform: scale(0.95);
 }
 #centerCard{

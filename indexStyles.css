@@ -170,7 +170,7 @@ nav .bl a:hover::after{
 #landingContent{
   padding-top: 130px;
   padding-bottom: 40px;
-  background-color: #fff;
+  background-color: #edf2f8;
 }
 #heroImg{
   width: 750px;
@@ -336,6 +336,7 @@ nav .bl a:hover::after{
 /*||||||||||||||||||||||||||||||||||||*/
 #features{
   padding-top: 40px;
+  background-color: #edf2f8;
 }
 #features h1{
   font-size: 1.5rem !important;
@@ -343,7 +344,7 @@ nav .bl a:hover::after{
   margin-bottom: 0 !important;
 }
 #features p{
-  color: #aaa;
+  color: #808080;
 }
 #leftFeatures {
   justify-content: right;
@@ -364,7 +365,7 @@ nav .bl a:hover::after{
   border: 1px solid #1c47c1;
 }
 #features .heading{
-  color:#1c47c1;
+  color:#062649;
 }
 
 #features hr{
@@ -427,12 +428,12 @@ nav .bl a:hover::after{
 /*||||||||||||||||||||||||||||||||||||*/
 #vidSec .heading{
   font-size: 1.5rem !important;
-  color: #1c47c1;
+  color: #062649;
   margin-bottom: 0 !important;
 }
 #vidSec hr{
   width: 20%;
-  border: 1px solid #1c47c1;
+  /*border: 1px solid #062649;*/
 }
 /*||||||||||||||||||||||||||||||||||||||*/
 /*      VIDEO SECTION STYLES END       */
