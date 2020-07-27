@@ -205,74 +205,92 @@ nav .bl a:hover::after{
   width: 25% !important;
   -webkit-filter: drop-shadow(1px 3px 2px #222);
   filter: drop-shadow(1px 3px 2px #222);
+}
+footer img{
   animation: spin 20s linear infinite;
   -webkit-animation:spin 20s linear infinite;
 }
-.FooterMainHeading{
-  color: #062649 !important;
+.FooterMainHeading a{
+  color: #fff !important;
   font-size: 18px;
+  text-decoration: none;
 }
-.FooterSubHeading{
-  color: #062649 !important;
+.FooterSubHeading a{
+  color: #eee !important;
   font-size: 15px;
   opacity: 0.8;
 }
 .card-header{
   padding: 0 !important;
 }
-.card{
+footer .card-header .btn{
+  color: white !important;
+}
+footer .card{
   border: 0.5px solid rgba(0,0,0,.035) !important;
   border-radius: 0 !important;
+  background-color: var(--dark);
+}
+footer .card-body b{
+  text-decoration: none;
+}
+footer .card-body a{
+  color: #eee !important;
+  text-decoration: none;
+}
+footer .card-header h2 a{
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
 }
 @media (min-width: 768px){
-  #card1{
+  footer #card1{
     display: none;
   }
-  #card2{
+  footer #card2{
     display: none;
   }
-  #card3{
+  footer #card3{
     display: none;
   }
-  #card4{
+  footer #card4{
     display: none;
   }
 }
 @media (max-width: 768px){
-  .FirstHeading{
+  footer .FirstHeading{
     font-size: 50px;
   }
 
-  .SecondHeading{
+  footer .SecondHeading{
     font-size: 15px;
   }
-  .FormHeading{
+  footer .FormHeading{
     margin-top: 30px;
     margin-bottom: 20px;
 
     font-size: 30px;
   }
-  #content1{
+  footer #content1{
     display: none;
   }
-  #content2{
+  footer #content2{
     display: none;
   }
-  #content3{
+  footer #content3{
     display: none;
   }
-  #content4{
+  footer #content4{
     display: none;
   }
-  #heroLogo{
+  footer #heroLogo{
     width: 25% !important;
-    padding-bottom: 25px;
   }
-  .FooterMainHeading{
+  footer .FooterMainHeading{
     padding-left: 20px;
     padding-bottom: 10px;
   }
-  .FooterItem{
+  footer .FooterItem{
     /* padding: 0 !important; */
   }
 }
@@ -281,4 +299,28 @@ nav .bl a:hover::after{
     height:40vh !important;
   }
 }
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }

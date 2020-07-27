@@ -93,8 +93,8 @@
   </section>
   <!--END OF LANDING CONTENT -->
 
-  <section>
-    <div class="container-fluid   mt-n5">
+  <section id="form" data-aos="zoom-in">
+    <div class="container mt-n5">
       <div class="row ContactContentWrap mx-md-5 mx-0">
         <div class="col-12 d-flex justify-content-center FormHeading">
           <b><u>Tell Us Your Requirement</u></b>
@@ -108,7 +108,7 @@
                 <div class="form-row">
                   <div class="col-12 mb-3">
                     <label for="validationCustom01">Full Name</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="Zunair Viqar" required>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Your Name" required>
                     <div class="valid-feedback">
                       Looks good!
                     </div>
@@ -117,7 +117,7 @@
                 <div class="form-row">
                   <div class="col-12 mb-3">
                     <label for="validationCustom02">Email</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="zunairv@gmail.com" required>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="example@domain.com" required>
                     <div class="valid-feedback">
                       Looks good!
                     </div>
@@ -135,81 +135,20 @@
                 <div class="form-row">
                   <div class="col-12 mb-3">
                     <label for="validationTextarea">Message</label>
-                        <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                        <textarea class="form-control" id="validationTextarea" placeholder="Required example text area" required></textarea>
                         <div class="invalid-feedback">
-                          Please enter a message in the textarea.
+                          Please enter a message in the text area.
                         </div>
                   </div>
                 </div>
                 <button class="btn btn-primary" type="submit">Submit</button>
               </form>
-
-              <script>
-              // Example starter JavaScript for disabling form submissions if there are invalid fields
-              (function() {
-                'use strict';
-                window.addEventListener('load', function() {
-                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                  var forms = document.getElementsByClassName('needs-validation');
-                  // Loop over them and prevent submission
-                  var validation = Array.prototype.filter.call(forms, function(form) {
-                    form.addEventListener('submit', function(event) {
-                      if (form.checkValidity() === false) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                      }
-                      form.classList.add('was-validated');
-                    }, false);
-                  });
-                }, false);
-              })();
-              </script>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- <div class = "container-fluid">
-      <div class = "row mt-5">
-        <div class = "col-md-6 NoMap">
-          <div class = "VisitUs ml-5">
-            Visit Us
-          </div>
-          <div class = "SayHello ml-5">
-            Come Say Hello To Us!
-          </div>
-          <div class = "row">
-            <div class = "col-md-6 AddressHeading pl-5" >
-              Address
-              <div class = "ContactUsContent mt-2">
-                4435 First ST.
-              </div>
-              <div class = "ContactUsContent">
-                Suite #419 Livermore,
-              </div>
-              <div class = "ContactUsContent">
-                CA. 94551
-              </div>
-            </div>
-            <div class = "col-md-6 ContactUsHeading pl-5 pl-md-0">
-              Contact Us
-              <div class = "ContactUsContent mt-2">
-                <li class="fa fa-envelope-o"></li>
-                info@trillup.com
-              </div>
-              <div class = "ContactUsContent">
-                <li class="fa fa-phone"></li>
-                415-228-0225
-              </div>
-            </div>
-          </div>
 
-        </div>
-        <div class = "col-md-6 Map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6313.963299680981!2d-121.74241999999998!3d37.69663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fe73df7beaa6d%3A0x3278ce39272a3cb8!2s4435%20First%20St%20%23419%2C%20Livermore%2C%20CA%2094551%2C%20USA!5e0!3m2!1sen!2sin!4v1595717213849!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-      </div>
-    </div> -->
 
     <div class = "container-fluid">
       <div class = "row mt-5">
@@ -221,7 +160,7 @@
             Come Say Hello To Us!
           </div>
         </div>
-        <div class = "col-lg Map">
+        <div class = "col-lg Map" data-aos="zoom-in" id="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6313.963299680981!2d-121.74241999999998!3d37.69663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fe73df7beaa6d%3A0x3278ce39272a3cb8!2s4435%20First%20St%20%23419%2C%20Livermore%2C%20CA%2094551%2C%20USA!5e0!3m2!1sen!2sin!4v1595717213849!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
           <div class = "col-lg-2 col  NoMap pl-5" >
@@ -254,187 +193,151 @@
   <!--END OF LANDING CONTENT -->
 
   <!-- Footer -->
-  <footer class="bg-light">
-    <div class="container-fluid accordion pb-5"id="accordionExample">
+  <footer class="bg-dark">
+    <div class="container-fluid accordion pb-5" id="accordionExample">
       <div class = "row">
         <div class = "col-md-4 col-6 pl-5 pt-5">
           <img id="heroLogo" src="images/logo/logoBlue.png" alt="" class="img-fluid" data-aos="zoom-in">
         </div>
         <div class = "col-md col-6 pt-5">
           <div class = "FooterMainHeading">
-            <div class = "pb-3"><b>Home</b></div>
-            <div class = ""><b>About</b></div>
+            <div class = "pb-3"><a href="index.html"><b>Home</b></a></div>
+            <div class = ""><a href="aboutus.html"><b>About</b></a></div>
           </div>
         </div>
         <div class = "col-md pt-md-5 pt-0 FooterItem">
           <div class = "FooterMainHeading" id = "content1">
-            <b>Features</b>
+            <a href="index.html#features"><b>Features</b>
             <div class = "FooterSubHeading pt-3">
-              <p>Newsfeed</p>
-              <p>Team Channels</p>
-              <p>Webinars</p>
-              <p>Collaboration Tools</p>
-              <p>File Sharing</p>
-              <p>Document Collaboration</p>
+              <a href="index.html#features"><p>Newsfeed</p></a>
+              <a href="index.html#features"><p>Team Channels</p></a>
+              <a href="index.html#features"><p>Webinars</p></a>
+              <a href="index.html#features"><p>Collaboration Tools</p></a>
+              <a href="index.html#features"><p>File Sharing</p></a>
+              <a href="index.html#features"><p>Document Collaboration</p></a>
             </div>
           </div>
           <div class="card" id = "card1">
             <div class="card-header" id="headingOne">
-              <h2 class="mb-0 px-0 py-0">
+              <h2 class="mb-0 px-0 py-0 d-flex">
                 <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   <b>Features</b>
                 </button>
+                <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="fa fa-plus text-white"></i>
+                </a>
               </h2>
             </div>
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                <p>Newsfeed</p>
-                <p>Team Channels</p>
-                <p>Webinars</p>
-                <p>Collaboration Tools</p>
-                <p>File Sharing</p>
-                <p>Document Collaboration</p>
+                <a href="index.html#features"><p>Newsfeed</p></a>
+                <a href="index.html#features"><p>Team Channels</p></a>
+                <a href="index.html#features"><p>Webinars</p></a>
+                <a href="index.html#features"><p>Collaboration Tools</p></a>
+                <a href="index.html#features"><p>File Sharing</p></a>
+                <a href="index.html#features"><p>Document Collaboration</p></a>
               </div>
             </div>
           </div>
         </div>
         <div class = "col-md pt-md-5 pt-0 FooterItem">
           <div class = "FooterMainHeading" id = "content2">
-            <b>FAQs</b>
+            <a href="faqs.html"<b>FAQs</b></a>
             <div class = "FooterSubHeading pt-3">
-              <p>General Questions</p>
-              <p>Payment</p>
-              <p>Giftcards</p>
+              <a href="faqs.html#generalQuestions"><p>General Questions</p></a>
+              <a href="faqs.html#paymentQuestions"<p>Payments and Giftcards</p></a>
             </div>
           </div>
           <div class="card" id = "card2">
             <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
+              <h2 class="mb-0 d-flex">
                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   <b>FAQs</b>
                 </button>
+                <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  <i class="fa fa-plus text-white"></i>
+                </a>
               </h2>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
               <div class="card-body">
-                <p>General Questions</p>
-                <p>Payment</p>
-                <p>Giftcards</p>
+                <a href="faqs.html#generalQuestions"><p>General Questions</p></a>
+                <a href="faqs.html#paymentQuestions"<p>Payments and Giftcards</p></a>
               </div>
             </div>
           </div>
         </div>
         <div class = "col-md pt-md-5 pt-0 FooterItem">
           <div class = "FooterMainHeading" id = "content3">
-            <b>Contact</b>
+            <a href="contact.html"><b>Contact</b></a>
             <div class = "FooterSubHeading pt-3">
-              <p>Call</p>
-              <p>Email</p>
-              <p>Map</p>
-              <p>Form</p>
+              <a href="tel:+4152280225"><p>Call</p></a>
+              <a href="mailto:info@casbn.com"><p>Email</p></a>
+              <a href="contact.html#map"><p>Map</p></a>
+              <a href="contact.html#form"><p>Form</p></a>
             </div>
           </div>
           <div class="card" id = "card3">
             <div class="card-header" id="headingThree">
-              <h2 class="mb-0">
+              <h2 class="mb-0 d-flex">
                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   <b>Contact</b>
                 </button>
+                <a data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                  <i class="fa fa-plus text-white"></i>
+                </a>
               </h2>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
               <div class="card-body">
-                <p>Call</p>
-                <p>Email</p>
-                <p>Map</p>
-                <p>Form</p>
+                <a href="tel:+4152280225"><p>Call</p></a>
+                <a href="mailto:info@casbn.com"><p>Email</p></a>
+                <a href="contact.html#map"><p>Map</p></a>
+                <a href="contact.html#form"><p>Form</p></a>
               </div>
             </div>
           </div>
         </div>
         <div class = "col-md pt-md-5 pt-0 FooterItem">
           <div class = "FooterMainHeading" id = "content4">
-            <b>Pricing</b>
+            <a href="pricing.html"><b>Pricing</b></a>
             <div class = "FooterSubHeading pt-3">
-              <p>Basic</p>
-              <p>Standard</p>
-              <p>Enterprise</p>
+              <a href="pricing.html"><p>Basic</p></a>
+              <a href="pricing.html"><p>Standard</p></a>
+              <a href="pricing.html"><p>Enterprise</p></a>
             </div>
           </div>
           <div class="card" id = "card4">
             <div class="card-header" id="headingFour">
-              <h2 class="mb-0">
+              <h2 class="mb-0 d-flex">
                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                   <b>Pricing</b>
                 </button>
+                <a data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                  <i class="fa fa-plus text-white"></i>
+                </a>
               </h2>
             </div>
             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
               <div class="card-body">
-                <p>Basic</p>
-                <p>Standard</p>
-                <p>Enterprise</p>
+                <a href="pricing.html"><p>Basic</p></a>
+                <a href="pricing.html"><p>Standard</p></a>
+                <a href="pricing.html"><p>Enterprise</p></a>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="m-0 text-center text-light">Copyright &copy; CASBN 2020</p>
         </div>
       </div>
       <!-- <p class="m-0 text-center text-black">Copyright &copy; Your Website 2020</p> -->
     </div>
   </footer>
 
-  <!-- <div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </button>
-      </h2>
-    </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </button>
-      </h2>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div> -->
-
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
-    </div>
-    <!-- /.container -->
-  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -454,6 +357,8 @@
   <script src="scripts/navBarClose.js" charset="utf-8"></script>
   <script src="scripts/navbarShadow.js" charset="utf-8"></script>
   <script src="scripts/navbarStyling.js" charset="utf-8"></script>
+  <script src="scripts/formValidator.js" charset="utf-8"></script>
+  <script src="scripts/toggleSignFooter.js" charset="utf-8"></script>
 </body>
 
 </html>

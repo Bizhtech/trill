@@ -196,3 +196,105 @@ nav .bl a:hover::after{
     margin: 10px 0;
   }
 }
+
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*       FOOTER STYLES START      */
+/*|||||||||||||||||||||||||||||||*/
+.xyz{
+  border: 1px solid black;
+}
+#heroLogo{
+  width: 25% !important;
+  -webkit-filter: drop-shadow(1px 3px 2px #222);
+  filter: drop-shadow(1px 3px 2px #222);
+}
+footer img{
+  animation: spin 20s linear infinite;
+  -webkit-animation:spin 20s linear infinite;
+}
+.FooterMainHeading a{
+  color: #fff !important;
+  font-size: 18px;
+  text-decoration: none;
+}
+.FooterSubHeading a{
+  color: #eee !important;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.card-header{
+  padding: 0 !important;
+}
+footer .card-header .btn{
+  color: white !important;
+}
+footer .card{
+  border: 0.5px solid rgba(0,0,0,.035) !important;
+  border-radius: 0 !important;
+  background-color: var(--dark);
+}
+footer .card-body b{
+  text-decoration: none;
+}
+footer .card-body a{
+  color: #eee !important;
+  text-decoration: none;
+}
+footer .card-header h2 a{
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+@media (min-width: 768px){
+  footer #card100{
+    display: none;
+  }
+  footer #card200{
+    display: none;
+  }
+  footer #card300{
+    display: none;
+  }
+  footer #card400{
+    display: none;
+  }
+}
+@media (max-width: 768px){
+  footer .FirstHeading{
+    font-size: 50px;
+  }
+
+  footer .SecondHeading{
+    font-size: 15px;
+  }
+  footer .FormHeading{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    font-size: 30px;
+  }
+  footer #content100{
+    display: none;
+  }
+  footer #content200{
+    display: none;
+  }
+  footer #content300{
+    display: none;
+  }
+  footer #content400{
+    display: none;
+  }
+  footer #heroLogo{
+    width: 25% !important;
+  }
+  footer .FooterMainHeading{
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  footer .FooterItem{
+    /* padding: 0 !important; */
+  }
+}
