@@ -3,7 +3,8 @@ html {
 }
 body {
   font-family: 'Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}#preloader {
+}
+#preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -380,7 +381,7 @@ li {
 }
 
 .quote {
-	width: 40%; 
+	width: 40%;
 	padding-bottom: 15px;
 	opacity: 70%;
 }
@@ -395,9 +396,9 @@ li {
 */
 
 .headd {
-	padding: 25px; 
+	padding: 25px;
 	font-size: 2.5em;
-	color: #062649; 
+	color: #062649;
 	text-align: center;
 }
 [type=radio]{
