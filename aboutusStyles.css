@@ -393,6 +393,12 @@ li {
 	position: relative;
 }
 */
+
+.headd {
+	padding: 25px; 
+	color: #062649; 
+	text-align: center;
+}
 [type=radio]{
 	display: none;
 }
