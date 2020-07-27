@@ -30,6 +30,12 @@
 </head>
 
 <body>
+  
+  <div id="preloader" class="navbar-brand">
+    <div class="row justify-content-center">
+      <img src="images/logo/logoBlue.png">
+    </div>
+  </div>
 
   <!--START OF NAVIGATION -->
   <nav class="navbar fixed-top navbar-expand-lg fixed-top" id="topnav">
@@ -50,7 +56,7 @@
             <a class="nav-link" href="index.html#features" onclick="closeNav()">Features</a>
           </li>
           <li class="nav-item bl">
-            <a class="nav-link" href="faqs.html" onclick="closeNav()">FAQs</a>
+            <a class="nav-link" href="#" onclick="closeNav()">Blog</a>
           </li>
           <li class="nav-item bl">
             <a class="nav-link" href="Contact.html" onclick="closeNav()">Contact Us</a>
@@ -81,17 +87,17 @@
     <article>
 
       <ul>
-        <li class="bg-purple">
-          <button>Self-Employed</button>
+        <li class="bg-blue">
+          <button>Basic</button>
         </li>
         <li class="bg-blue">
-          <button>Simple Start</button>
+          <button>Standard</button>
         </li>
         <li class="bg-blue active">
-          <button>Essentials</button>
+          <button>Advanced</button>
         </li>
         <li class="bg-blue">
-          <button>Plus</button>
+          <button>Enterprise</button>
         </li>
       </ul>
 
@@ -99,7 +105,7 @@
         <thead>
           <tr>
             <th class="hide"></th>
-            <th class="bg-purple basic">Basic</th>
+            <th class="bg-blue basic">Basic</th>
             <th class="bg-blue standard">Standard</th>
             <th class="bg-blue default advanced">Advanced</th>
             <th class="bg-blue enterprise">Enterprise</th>
@@ -114,7 +120,7 @@
             <td class="enterprise"><span class="txt-top">&dollar;</span><span class="txt-l">29.99</span></td>
           </tr>
           <tr>
-            <td colspan="5" class="sep">Tools</td>
+            <td colspan="5" class="sep text-center">Tools</td>
           </tr>
           <tr>
             <td>Team Channels</td>
@@ -222,7 +228,14 @@
             <td class="enterprise"><span class="tick">&#10004;</span></td>
           </tr>
           <tr>
-            <td colspan="5" class="sep">Support</td>
+            <td></td>
+            <td class="basic"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+            <td class="standard"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+            <td class="default advanced"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+            <td class="enterprise"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+          </tr>
+          <tr>
+            <td colspan="5" class="sep text-center">Support</td>
           </tr>
           <tr>
             <td>Document Collaboration</td>
@@ -295,7 +308,14 @@
             <td class="enterprise"><span class="tick">&#10004;</span></td>
           </tr>
           <tr>
-            <td colspan="5" class="sep">Integration</td>
+            <td></td>
+            <td class="basic"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+            <td class="standard"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+            <td class="default advanced"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+            <td class="enterprise"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+          </tr>
+          <tr>
+            <td colspan="5" class="sep text-center">Integration</td>
           </tr>
           <tr>
             <td>Active Directory Integrations</td>
@@ -305,7 +325,14 @@
             <td class="enterprise"><span class="tick">&#10004;</span></td>
           </tr>
           <tr>
-            <td colspan="5" class="sep">Internal Corporate Newsfeed</td>
+            <td></td>
+            <td class="basic"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+            <td class="standard"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+            <td class="default advanced"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+            <td class="enterprise"><span class="tick"><a href="#" class="btn btn-primary">SELECT</a></span></td>
+          </tr>
+          <tr>
+            <td colspan="5" class="sep text-center">Internal Corporate Newsfeed</td>
           </tr>
           <tr>
             <td>Pick your plan</td>
@@ -313,13 +340,6 @@
             <td class="standard"><span class="tick">$4 per month billed monthly (5000-10000 users)</span></td>
             <td class="default advanced"><span class="tick">$3 per month billed monthly (10000-20000 users)</span></td>
             <td class="enterprise"><span class="tick">Contact Us</span></td>
-          </tr>
-          <tr>
-            <td>CASBN room connector</td>
-            <td class="basic"><span class="tick">$39.99 per user</span></td>
-            <td class="standard"><span class="tick">$39.99 per user</span></td>
-            <td class="default advanced"><span class="tick">$39.99 per user</span></td>
-            <td class="enterprise"><span class="tick">$39.99 per user</span></td>
           </tr>
           <tr>
             <td></td>
@@ -330,154 +350,277 @@
           </tr>
         </tbody>
       </table>
-
     </article>
+    <div class="container mt-3" id="casbn">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="text-center">CASBN Room Connector</h3>
+            </div>
+            <div class="card-body">
+              <h4 class="text-center">$39.99 per user</h4>
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a href="#" class="btn btn-primary">SELECT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- END OF PRICING -->
+
+  <!--START OF FAQ-->
+  <div class="container mt-5" id="topImg">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>FAQs</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="categories">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <a href="#generalQuestions">
+          <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="fa fa-question fa-4x" aria-hidden="true"></i></h5>
+              <a href="#generalQuestions"><h3 class="card-text text-center">General Questions</h3></a>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <a href="#paymentQuestions">
+          <div class="card" data-aos="zoom-in">
+          <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa fa-credit-card fa-4x" aria-hidden="true"></i></h5>
+            <a href="#paymentQuestions"><h3 class="card-text text-center">Payment and Gift Cards</h3></a>
+          </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section id="generalQuestions" data-aos="fade-up">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center">General Questions</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="accordions">
+      <div class="accordion" id="genQ_accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h4 class="mb-0">
+              Sample Question 1
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#genQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h4 class="mb-0">
+              Sample Question 2
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#genQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h4 class="mb-0">
+              Sample Question 3
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#genQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h4 class="mb-0">
+              Sample Question 4
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#genQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h4 class="mb-0">
+              Sample Question 5
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#genQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h4 class="mb-0">
+              Sample Question 6
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#genQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- END OF PRICING -->
+  <section id="paymentQuestions" data-aos="fade-up">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center">Payments and Gift Cards</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="accordions">
+      <div class="accordion" id="payementQ_accordion">
+        <div class="card">
+          <div class="card-header" id="headingSeven">
+            <h4 class="mb-0">
+              Sample Question 7
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#payementQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingEight">
+            <h4 class="mb-0">
+              Sample Question 8
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#payementQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingNine">
+            <h4 class="mb-0">
+              Sample Question 9
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#payementQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTen">
+            <h4 class="mb-0">
+              Sample Question 10
+            </h4>
+            <a data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+              <i class="fa fa-plus"></i>
+            </a>
+          </div>
+          <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#payementQ_accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END OF FAQ-->
 
   <!-- Footer -->
   <footer class="bg-dark">
-    <div class="container-fluid accordion pb-5" id="accordionExample">
-      <div class = "row">
-        <div class = "col-md-4 col-6 pl-5 pt-5">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-1 col-md-1" id="imgCol">
           <img id="heroLogo" src="images/logo/logoBlue.png" alt="" class="img-fluid" data-aos="zoom-in">
         </div>
-        <div class = "col-md col-6 pt-5">
-          <div class = "FooterMainHeading">
-            <div class = "pb-3"><a href="index.html"><b>Home</b></a></div>
-            <div class = ""><a href="aboutus.html"><b>About</b></a></div>
-          </div>
+        <div class="col-lg-7 col-md-7" id="contactCol">
+          <h5 class="text-left">Address: <span>3471 Ashbourne Cir<br>San Ramon, CA 94583<br>USA</span></h5>
+          <h5 class="text-left">Email: <span>info@casbn.com</span></h5>
+          <h5 class="text-left">Number: <span>10000000000</span></h5>
         </div>
-        <div class = "col-md pt-md-5 pt-0 FooterItem">
-          <div class = "FooterMainHeading" id = "content1">
-            <a href="index.html#features"><b>Features</b>
-            <div class = "FooterSubHeading pt-3">
-              <a href="index.html#features"><p>Newsfeed</p></a>
-              <a href="index.html#features"><p>Team Channels</p></a>
-              <a href="index.html#features"><p>Webinars</p></a>
-              <a href="index.html#features"><p>Collaboration Tools</p></a>
-              <a href="index.html#features"><p>File Sharing</p></a>
-              <a href="index.html#features"><p>Document Collaboration</p></a>
-            </div>
-          </div>
-          <div class="card" id = "card1">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0 px-0 py-0 d-flex">
-                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <b>Features</b>
-                </button>
-                <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <i class="fa fa-plus text-white"></i>
-                </a>
-              </h2>
-            </div>
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                <a href="index.html#features"><p>Newsfeed</p></a>
-                <a href="index.html#features"><p>Team Channels</p></a>
-                <a href="index.html#features"><p>Webinars</p></a>
-                <a href="index.html#features"><p>Collaboration Tools</p></a>
-                <a href="index.html#features"><p>File Sharing</p></a>
-                <a href="index.html#features"><p>Document Collaboration</p></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class = "col-md pt-md-5 pt-0 FooterItem">
-          <div class = "FooterMainHeading" id = "content2">
-            <a href="faqs.html"<b>FAQs</b></a>
-            <div class = "FooterSubHeading pt-3">
-              <a href="faqs.html#generalQuestions"><p>General Questions</p></a>
-              <a href="faqs.html#paymentQuestions"<p>Payments and Giftcards</p></a>
-            </div>
-          </div>
-          <div class="card" id = "card2">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0 d-flex">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <b>FAQs</b>
-                </button>
-                <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                  <i class="fa fa-plus text-white"></i>
-                </a>
-              </h2>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                <a href="faqs.html#generalQuestions"><p>General Questions</p></a>
-                <a href="faqs.html#paymentQuestions"<p>Payments and Giftcards</p></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class = "col-md pt-md-5 pt-0 FooterItem">
-          <div class = "FooterMainHeading" id = "content3">
-            <a href="contact.html"><b>Contact</b></a>
-            <div class = "FooterSubHeading pt-3">
-              <a href="tel:+4152280225"><p>Call</p></a>
-              <a href="mailto:info@casbn.com"><p>Email</p></a>
-              <a href="contact.html#map"><p>Map</p></a>
-              <a href="contact.html#form"><p>Form</p></a>
-            </div>
-          </div>
-          <div class="card" id = "card3">
-            <div class="card-header" id="headingThree">
-              <h2 class="mb-0 d-flex">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <b>Contact</b>
-                </button>
-                <a data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                  <i class="fa fa-plus text-white"></i>
-                </a>
-              </h2>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                <a href="tel:+4152280225"><p>Call</p></a>
-                <a href="mailto:info@casbn.com"><p>Email</p></a>
-                <a href="contact.html#map"><p>Map</p></a>
-                <a href="contact.html#form"><p>Form</p></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class = "col-md pt-md-5 pt-0 FooterItem">
-          <div class = "FooterMainHeading" id = "content4">
-            <a href="pricing.html"><b>Pricing</b></a>
-            <div class = "FooterSubHeading pt-3">
-              <a href="pricing.html"><p>Basic</p></a>
-              <a href="pricing.html"><p>Standard</p></a>
-              <a href="pricing.html"><p>Enterprise</p></a>
-            </div>
-          </div>
-          <div class="card" id = "card4">
-            <div class="card-header" id="headingFour">
-              <h2 class="mb-0 d-flex">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                  <b>Pricing</b>
-                </button>
-                <a data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                  <i class="fa fa-plus text-white"></i>
-                </a>
-              </h2>
-            </div>
-            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-              <div class="card-body">
-                <a href="pricing.html"><p>Basic</p></a>
-                <a href="pricing.html"><p>Standard</p></a>
-                <a href="pricing.html"><p>Enterprise</p></a>
-              </div>
+        <div class="col-lg-4 col-md-4" id="smCol">
+          <h5 class="text-left">Social Media</h5>
+          <div class="row">
+            <div class="col-lg-12" id="icCol">
+              <a href="#" target="_blank" class="fa fa-facebook"></a>
+              <a href="#" target="_blank" class="fa fa-twitter"></a>
+              <a href="#" target="_blank" class="fa fa-instagram"></a>
+              <a href="#" target="_blank" class="fa fa-linkedin"></a>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <p class="m-0 text-center text-light">Copyright &copy; CASBN 2020</p>
+          <h6 class="text-center">Copyright &copy; CASBN 2020</h6>
         </div>
       </div>
-      <!-- <p class="m-0 text-center text-black">Copyright &copy; Your Website 2020</p> -->
     </div>
   </footer>
 
@@ -499,7 +642,8 @@
   <script src="scripts/navbarShadow.js" charset="utf-8"></script>
   <script src="scripts/navbarStyling.js" charset="utf-8"></script>
   <script src="scripts/pricing.js" charset="utf-8"></script>
-  <script src="scripts/toggleSignFooter.js" charset="utf-8"></script>
+  <script src="scripts/toggleSign.js" charset="utf-8"></script>
+  <script src="scripts/preloader.js" charset="utf-8"></script>
 </body>
 
 </html>

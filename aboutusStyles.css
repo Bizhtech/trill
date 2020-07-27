@@ -3,6 +3,64 @@ html {
 }
 body {
   font-family: 'Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 1031;
+  transition: 2s ease-in-out;
+}
+#preloader .row{
+  padding-top: 50vh;
+  transform: translateY(-25%);
+}
+#preloader img{
+  height: 200px !important;
+}
+#preloader img{
+  position: relative;
+  margin: 0 auto;
+  -webkit-animation: spin 1.5s ease-in-out infinite;
+  animation: spin 1.5s ease-in-out infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.fadeItOut{
+  animation: fadeout 2s ease-in-out both;
+  -webkit-animation: fadeout 2s ease-in-out both;
+}
+@keyframes fadeout {
+  0% { opacity: 1;}
+  100% { opacity: 0; }
+}
+@-webkit-keyframes fadeout {
+  0% { opacity: 1;}
+  100% { opacity: 0; }
 }
 /*||||||||||||||||||||||||||||||||*/
 /*  NAVIGATION BAR STYLES START  */
@@ -359,101 +417,62 @@ li {
 	transform: translate3d(-30%,0,-200px);
 }*/
 /*||||||||||||||||||||||||||||||||*/
-/*       FOOTER STYLES START      */
+/*      FOOTER STYLES START       */
 /*|||||||||||||||||||||||||||||||*/
-.xyz{
-  border: 1px solid black;
-}
-#heroLogo{
-  width: 25% !important;
+footer #heroLogo{
+  width: 100% !important;
   -webkit-filter: drop-shadow(1px 3px 2px #222);
   filter: drop-shadow(1px 3px 2px #222);
 }
-footer img{
-  animation: spin 20s linear infinite;
-  -webkit-animation:spin 20s linear infinite;
+footer{
+  color: #e6e6e6;
 }
-.FooterMainHeading a{
-  color: #fff !important;
-  font-size: 18px;
+footer .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
   text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
-.FooterSubHeading a{
-  color: #eee !important;
-  font-size: 15px;
-  opacity: 0.8;
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
-.card-header{
-  padding: 0 !important;
-}
-footer .card-header .btn{
-  color: white !important;
-}
-footer .card{
-  border: 0.5px solid rgba(0,0,0,.035) !important;
-  border-radius: 0 !important;
-  background-color: var(--dark);
-}
-footer .card-body b{
-  text-decoration: none;
-}
-footer .card-body a{
-  color: #eee !important;
-  text-decoration: none;
-}
-footer .card-header h2 a{
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 18px;
-}
-@media (min-width: 768px){
-  footer #card1{
-    display: none;
-  }
-  footer #card2{
-    display: none;
-  }
-  footer #card3{
-    display: none;
-  }
-  footer #card4{
-    display: none;
-  }
-}
-@media (max-width: 768px){
-  footer .FirstHeading{
-    font-size: 50px;
-  }
 
-  footer .SecondHeading{
-    font-size: 15px;
+.fa-twitter {
+  background: #fff;
+}
+.fa-linkedin{
+  background: #0072b1;
+  color: white;
+}
+.fa-instagram {
+  background: #c13584;
+  color: white;
+}
+footer h5 span{
+  font-size: 1rem;
+}
+@media (max-width:992px) {
+  footer #heroLogo{
+    width: 100% !important;
   }
-  footer .FormHeading{
-    margin-top: 30px;
-    margin-bottom: 20px;
-
-    font-size: 30px;
-  }
-  footer #content1{
-    display: none;
-  }
-  footer #content2{
-    display: none;
-  }
-  footer #content3{
-    display: none;
-  }
-  footer #content4{
-    display: none;
-  }
+}
+@media (max-width:768px) {
   footer #heroLogo{
     width: 25% !important;
   }
-  footer .FooterMainHeading{
-    padding-left: 20px;
-    padding-bottom: 10px;
+  footer #imgCol{
+    display: flex;
+    justify-content: center;
   }
-  footer .FooterItem{
-    /* padding: 0 !important; */
+  footer #contactCol h5, footer #smCol h5{
+    text-align: center !important ;
+  }
+  footer #icCol{
+    display: flex;
+    justify-content: center;
   }
 }
