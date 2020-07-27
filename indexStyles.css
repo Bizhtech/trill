@@ -451,7 +451,7 @@ nav .bl a:hover::after{
 .xyz{
   border: 1px solid black;
 }
-#heroLogo{
+footer #heroLogo{
   width: 25% !important;
   -webkit-filter: drop-shadow(1px 3px 2px #222);
   filter: drop-shadow(1px 3px 2px #222);
