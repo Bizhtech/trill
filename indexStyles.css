@@ -366,6 +366,7 @@ nav .bl a:hover::after{
 #features .heading{
   color:#1c47c1;
 }
+
 #features hr{
   color:#1c47c1;
   width: 20%;
@@ -422,6 +423,24 @@ nav .bl a:hover::after{
 
 
 /*||||||||||||||||||||||||||||||||||||||*/
+/*     VIDEO SECTION STYLES START      */
+/*||||||||||||||||||||||||||||||||||||*/
+#vidSec .heading{
+  font-size: 1.5rem !important;
+  color: #1c47c1;
+  margin-bottom: 0 !important;
+}
+#vidSec hr{
+  width: 20%;
+  border: 1px solid #1c47c1;
+}
+/*||||||||||||||||||||||||||||||||||||||*/
+/*      VIDEO SECTION STYLES END       */
+/*||||||||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||||||||*/
 /*        SCROLL-TOP STYLES START      */
 /*||||||||||||||||||||||||||||||||||||*/
 #scrollTop {
@@ -446,8 +465,6 @@ nav .bl a:hover::after{
 /*||||||||||||||||||||||||||||||||||||||*/
 /*         SCROLL-TOP STYLES END       */
 /*||||||||||||||||||||||||||||||||||||*/
-
-
 
 
 
