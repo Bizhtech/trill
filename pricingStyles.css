@@ -401,6 +401,12 @@ section.pricing {
 /*||||||||||||||||||||||||||||||||*/
 /*      FOOTER STYLES START       */
 /*|||||||||||||||||||||||||||||||*/
+
+footer img{
+  animation: spin 20s linear infinite;
+  -webkit-animation:spin 20s linear infinite;
+}
+
 footer #heroLogo{
   width: 100% !important;
   -webkit-filter: drop-shadow(1px 3px 2px #222);
