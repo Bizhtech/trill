@@ -3,6 +3,64 @@ html {
 }
 body {
   font-family: 'Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 1031;
+  transition: 2s ease-in-out;
+}
+#preloader .row{
+  padding-top: 50vh;
+  transform: translateY(-25%);
+}
+#preloader img{
+  height: 200px !important;
+}
+#preloader img{
+  position: relative;
+  margin: 0 auto;
+  -webkit-animation: spin 1.5s ease-in-out infinite;
+  animation: spin 1.5s ease-in-out infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.fadeItOut{
+  animation: fadeout 2s ease-in-out both;
+  -webkit-animation: fadeout 2s ease-in-out both;
+}
+@keyframes fadeout {
+  0% { opacity: 1;}
+  100% { opacity: 0; }
+}
+@-webkit-keyframes fadeout {
+  0% { opacity: 1;}
+  100% { opacity: 0; }
 }
 /*||||||||||||||||||||||||||||||||*/
 /*  NAVIGATION BAR STYLES START  */
