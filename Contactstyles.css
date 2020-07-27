@@ -187,8 +187,59 @@ nav .bl a:hover::after{
   color: #062649 !important;
 }
 
-
-
-
+.xyz{
+  border: 1px solid black;
+}
+#heroLogo{
+  width: 25% !important;
+  -webkit-filter: drop-shadow(1px 3px 2px #222);
+  filter: drop-shadow(1px 3px 2px #222);
+  animation: spin 20s linear infinite;
+  -webkit-animation:spin 20s linear infinite;
+}
+.FooterMainHeading{
+  color: #062649 !important;
+  font-size: 18px;
+}
+.FooterSubHeading{
+  color: #062649 !important;
+  font-size: 15px;
+  opacity: 0.8;
+}
+@media (min-width: 992px){
+  #card1{
+    display: none;
+  }
+  #card2{
+    display: none;
+  }
+  #card3{
+    display: none;
+  }
+  #card4{
+    display: none;
+  }
+}
+@media (max-width: 992px){
+  #content1{
+    display: none;
+  }
+  #content2{
+    display: none;
+  }
+  #content3{
+    display: none;
+  }
+  #content4{
+    display: none;
+  }
+  #heroLogo{
+    width: 15% !important;
+  }
+  .FooterMainHeading{
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+}
 
 }
