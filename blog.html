@@ -28,7 +28,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="Contactstyles.css" rel="stylesheet">
+  <link href="blogStyles.css" rel="stylesheet">
 
 </head>
 
@@ -40,7 +40,7 @@
   </div>
 
   <!--START OF NAVIGATION -->
-  <nav class="navbar fixed-top navbar-expand-lg fixed-top" id="topnav">
+  <nav class="navbar fixed-top navbar-expand-lg fixed-top" id="topnav" style = "  background-color: white !important;">
     <div class="container-fluid mx-5">
       <a class="navbar-brand" href="index.html"><img src="images/logo/logoTxtBlue.png"></a>
       <button onclick="openNav()" class="navbar-toggler navbar-toggler-right" type="button">
@@ -58,13 +58,13 @@
             <a class="nav-link" href="index.html#features" onclick="closeNav()">Features</a>
           </li>
           <li class="nav-item bl">
-            <a class="nav-link" href="blog.html" onclick="closeNav()">Blog</a>
+            <a class="nav-link active" href="#" onclick="closeNav()">Blog</a>
           </li>
           <li class="nav-item bl">
             <a class="nav-link" href="pricing.html" onclick="closeNav()">Pricing</a>
           </li>
           <li class="nav-item bl">
-            <a class="nav-link active" href="#" onclick="closeNav()">Contact Us</a>
+            <a class="nav-link" href="Contact.html" onclick="closeNav()">Contact Us</a>
           </li>
           <li class="nav-item">
             <button type="button" class="btn btn-dark" name="button">Sign in</button>
@@ -78,123 +78,132 @@
   </nav>
   <!-- END OF NAVIGATION -->
 
-
   <!--START OF LANDING CONTENT -->
   <section id="landingContent">
     <div class="container-fluid">
       <div class="row">
-        <div class="col d-flex justify-content-center FirstHeading">
-          <b>We are always....
-          <br />
-          Available for <u>you</u></b>
+        <div class="col d-flex justify-content-center FirstHeading" style = "padding:0 !important;">
+          <img class="img-fluid" style = "width:100%; " id="heroImg" src="images/blog-img.png" alt="">
         </div>
       </div>
-      <div class="row">
-        <div class="col d-flex justify-content-center SecondHeading">
-          Whether you’re looking for pricing or have questions, we’ll provide the information you need to make the right decision.
+      <!-- <div class="row">
+        <div class="col d-flex justify-content-center FirstHeading" style = "padding:0 !important;">
+          <img class="img-fluid" style = "width:100%; blogheaderimage" id="heroImg" src="images/blog-img.png" alt="">
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
-  <!--END OF LANDING CONTENT -->
 
-  <section id="form" data-aos="zoom-in">
-    <div class="container mt-n5">
-      <div class="row ContactContentWrap mx-md-5 mx-0">
-        <div class="col-12 d-flex justify-content-center FormHeading">
-          <b><u>Tell Us Your Requirement</u></b>
+  <div class="container-fluid">
+    <div class="row ml-2">
+
+      <h1 class="my-4">See What Our Customers Have To Say
+        <!-- <small>Secondary Text</small> -->
+      </h1>
+    </div>
+
+    <div class="row">
+      <!-- Blog Entries Column -->
+      <div class="col-md-6">
+        <!-- Blog Post -->
+        <div class="card mb-4 myblog">
+          <img class="card-img-top" src="images/sc4-bg.png" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">CASBN Hits The Market</h2>
+            <p class="card-text">Check out how the the successful launch of this unique product has left the market startled!</p>
+            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on July 30, 2020 by
+            <a href="#">Zunair Viqar</a>
+          </div>
         </div>
-        <div class="col-12">
-          <div class="row">
-            <div class = "col-lg-2 col-0">
-            </div>
-            <div class="col-lg-8 mb-5">
-              <form class="needs-validation" novalidate>
-                <div class="form-row">
-                  <div class="col-12 mb-3">
-                    <label for="validationCustom01">Full Name</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="Your Name" required>
-                    <div class="valid-feedback">
-                      Looks good!
-                    </div>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="col-12 mb-3">
-                    <label for="validationCustom02">Email</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="example@domain.com" required>
-                    <div class="valid-feedback">
-                      Looks good!
-                    </div>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="col-12 mb-3">
-                    <label for="validationCustom02">Subject</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="Query Regarding ..." required>
-                    <div class="valid-feedback">
-                      Looks good!
-                    </div>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="col-12 mb-3">
-                    <label for="validationTextarea">Message</label>
-                        <textarea class="form-control" id="validationTextarea" placeholder="Required example text area" required></textarea>
-                        <div class="invalid-feedback">
-                          Please enter a message in the text area.
-                        </div>
-                  </div>
-                </div>
-                <button class="btn btn-primary" type="submit">Submit</button>
-              </form>
-            </div>
+
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="images/sec2-bg.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">CASBN Stocks Sky Rocket</h2>
+            <p class="card-text">CASBN stocks reach unprecedented heights!</p>
+            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on July 30, 2020 by
+            <a href="#">Zunair Viqar</a>
+          </div>
+        </div>
+
+        <!-- Blog Post -->
+        <div class="card mb-4 myblog">
+          <img class="card-img-top" src="images/sc4-bg.png" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">CASBN Hits The Market</h2>
+            <p class="card-text">Check out how the the successful launch of this unique product has left the market startled!</p>
+            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on July 30, 2020 by
+            <a href="#">Zunair Viqar</a>
           </div>
         </div>
       </div>
-    </div>
-
-
-    <div class = "container-fluid">
-      <div class = "row mt-5">
-        <div class = "col-lg NoMap">
-          <div class = "VisitUs">
-            Visit Us
+      <div class="col-md-6">
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="images/sec2-bg.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">CASBN Stocks Sky Rocket</h2>
+            <p class="card-text">CASBN stocks reach unprecedented heights!</p>
+            <a href="#" class="btn btn-primary">Read More &rarr;</a>
           </div>
-          <div class = "SayHello">
-            Come Say Hello To Us!
+          <div class="card-footer text-muted">
+            Posted on July 30, 2020 by
+            <a href="#">Zunair Viqar</a>
           </div>
         </div>
-        <div class = "col-lg Map" data-aos="zoom-in" id="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21222.53744587091!2d-121.98719258305412!3d37.749030786278105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808ff2aa16497653%3A0xff369eec29a0ed95!2s3471%20Ashbourne%20Cir%2C%20San%20Ramon%2C%20CA%2094583%2C%20USA!5e0!3m2!1sen!2s!4v1595862611989!5m2!1sen!2s" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        <!-- Blog Post -->
+        <div class="card mb-4 myblog">
+          <img class="card-img-top" src="images/sc4-bg.png" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">CASBN Hits The Market</h2>
+            <p class="card-text">Check out how the the successful launch of this unique product has left the market startled!</p>
+            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on July 30, 2020 by
+            <a href="#">Zunair Viqar</a>
+          </div>
         </div>
-          <div class = "col-lg-2 col  NoMap pl-5" >
-            <div class = "AddressHeading">Address</div>
-            <div class = "ContactUsContent mt-2">
-              3471 Ashbourne Cir
-            </div>
-            <div class = "ContactUsContent">
-              San Ramon, CA 94583
-            </div>
-            <div class = "ContactUsContent ContactUsContentend">
-              USA
-            </div>
+
+        <!-- Blog Post -->
+        <div class="card mb-4 myblog">
+          <img class="card-img-top" src="images/sc4-bg.png" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">CASBN Hits The Market</h2>
+            <p class="card-text">Check out how the the successful launch of this unique product has left the market startled!</p>
+            <a href="#" class="btn btn-primary">Read More &rarr;</a>
           </div>
-          <div class = "col-lg-2 col NoMap">
-            <div class = "ContactUsHeading pl-5 pl-md-0">Contact Us</div>
-            <div class = "ContactUsContent pl-5 pl-md-0 mt-2">
-              <li class="fa fa-envelope-o"></li>
-              info@CASBN.com
-            </div>
-            <div class = "ContactUsContent pl-5 pl-md-0 ContactUsContentend">
-              <li class="fa fa-phone"></li>
-              415-228-0225
-            </div>
+          <div class="card-footer text-muted">
+            Posted on July 30, 2020 by
+            <a href="#">Zunair Viqar</a>
           </div>
+        </div>
       </div>
-    </div>
+      <!-- Pagination -->
 
-  </section>
+    </div>
+    <!-- /.row -->
+    <ul class="pagination justify-content-center mb-4">
+      <li class="page-item">
+        <a class="page-link" href="#">&larr; Older</a>
+      </li>
+      <li class="page-item disabled">
+        <a class="page-link" href="#">Newer &rarr;</a>
+      </li>
+    </ul>
+  </div>
+
   <!--END OF LANDING CONTENT -->
 
   <!-- Footer -->
@@ -247,7 +256,7 @@
   <script src="scripts/opacityReduction.js" charset="utf-8"></script>
   <script src="scripts/navBarClose.js" charset="utf-8"></script>
   <script src="scripts/navbarShadow.js" charset="utf-8"></script>
-  <script src="scripts/navbarStyling.js" charset="utf-8"></script>
+  <!-- <script src="scripts/navbarStyling.js" charset="utf-8"></script> -->
   <script src="scripts/formValidator.js" charset="utf-8"></script>
   <script src="scripts/preloader.js" charset="utf-8"></script>
 </body>
