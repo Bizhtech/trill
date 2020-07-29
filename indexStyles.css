@@ -447,17 +447,18 @@ nav .bl a:hover::after{
 #scrollTop {
   display: none;
   position: fixed;
-  bottom: 5px;
-  right: 5px;
+  bottom: 8px;
+  right: 8px;
   z-index: 1030;
   border: none;
   outline: none;
   background-color: #1c47c1;
   color: white;
   cursor: pointer;
-  padding: 18px;
-  border-radius: 50%;
-  font-size: 18px;
+  padding: 18px 23px;
+  margin: 10px 10px;
+  border-radius: 70%;
+  font-size: 23px;
 }
 
 #scrollTop:hover {
