@@ -69,7 +69,6 @@ body {
   height: 55px;
 }
 .fa-bars{
-/*  color: #ff3d34; */
 color: #000;
 }
 #topnav{
@@ -84,23 +83,13 @@ color: #000;
   background-color: #fff;
 }
 .navbar-nav a{
-  /*color:#5f687b;*/
-  /*color:var(--blue);*/
   font-weight: bold;
   opacity: 1;
-  /*font-size: 16px;*/
   font-family: 'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .navbar-nav a.active{
   color: #174d82;
-  /*color: #1b94dd;*/
-  /*color:blue;*/
 }
-/*.navbar-nav a:hover{
-  transform: scale(1.1);
-  margin-left: 10px;
-  margin-right: 10px;
-}*/
 .navbar-shadow{
   width: 100%;
   border-radius: 2px;
@@ -134,25 +123,16 @@ nav ul li a.current{
     height: 100%;
     background-color: #fff !important;
   }
-  /*.navbar-brand img{
-    display: none
-  }*/
   .navbar-nav{
     margin-top: 0px;
   }
-/*  .navbar-nav a:hover{
-    border: 1px solid #407cc0;
-    transform: scale(1.1);
-    margin: 10px 0;
-  }*/
 }
 nav .bl a::after {
 	content: '';
 	display: block;
 	height: 3px;
 	background-color: #174d82;
-/*	position: absolute;
-*/	top: 0;
+  top: 0;
 	width: 0%;
 	transition: all ease-in-out 175ms;
 }
@@ -195,9 +175,6 @@ nav .bl a:hover::after{
   background-color: #0b1853;
   border-radius: 15px;
   box-shadow: 0 0 8px 0 rgba(68,67,67,.5);
-  /* height: 100vh; */
-  /* margin-left: 10px; */
-  /* margin-right: 100px; */
   margin-bottom: 10px;
   color: white;
 
@@ -205,7 +182,6 @@ nav .bl a:hover::after{
 .FormHeading{
   margin-top: 50px;
   font-size: 45px;
-  /* border: 1px solid black; */
 }
 .form-control{
   background-color: #0b1853 !important;
@@ -227,7 +203,6 @@ nav .bl a:hover::after{
   font-size: 25px;
   font-weight: 400;
   line-height: 1.15;
-  /* color: #062649 !important; */
 }
 .SayHello{
   margin-top: 10px;
@@ -235,21 +210,17 @@ nav .bl a:hover::after{
   font-weight: 400;
   line-height: 1.15;
   margin-bottom: 20vh;
-  /* color: #062649 !important; */
 }
 .AddressHeading{
   margin-top: 40px;
   font-size: 22px;
-  /* color: #062649 !important; */
 }
 .ContactUsHeading{
   margin-top: 40px;
   font-size: 22px;
-  /* color: #062649 !important; */
 }
 .ContactUsContent{
   font-size: 16px;
-  /* color: #062649 !important; */
 }
 .ContactUsContentend{
   margin-bottom: 15vh;
