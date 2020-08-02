@@ -315,10 +315,10 @@ nav .bl a:hover::after{
 /*     BEST-SOLUTIONS STYLES START     */
 /*||||||||||||||||||||||||||||||||||||*/
 #bestSol{
-  background-image: linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sec2-bg.jpg"); /*width: 1920 height:1080*/
-  background-image: -webkit-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sec2-bg.jpg");
-  background-image: -moz-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sec2-bg.jpg");
-  background-size: cover;
+  background-image: linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/projectImages/blog.jpg"); /*width: 1920 height:1080*/
+  background-image: -webkit-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/projectImages/blog.jpg");
+  background-image: -moz-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/projectImages/blog.jpg");
+  background-image: -o-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/projectImages/blog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -399,9 +399,11 @@ nav .bl a:hover::after{
 /*     GREAT-SOLUTIONS STYLES START    */
 /*||||||||||||||||||||||||||||||||||||*/
 #greatSol{
-  background-image: linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sc4-bg.png"); /*width: 1920 height:1080*/
-  background-image: -webkit-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sc4-bg.png");
-  background-image: -moz-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/sc4-bg.png");
+  background-image: linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/projectImages/blog.jpg"); /*width: 1920 height:1080*/
+  background-image: -webkit-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/projectImages/blog.jpg");
+  background-image: -moz-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/projectImages/blog.jpg");
+  background-image: -o-linear-gradient(130deg, rgba(0, 188, 212, .70), #4766c8, rgba(48, 111, 148, 0.7)),url("images/projectImages/blog.jpg");
+
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
