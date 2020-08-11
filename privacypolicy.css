@@ -37,13 +37,9 @@ body {
 @-webkit-keyframes spin {
     0%   {
         -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
     }
     100% {
         -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
     }
 }
 @keyframes spin {
@@ -294,31 +290,6 @@ nav .bl a:hover::after{
 footer img{
   animation: spin 20s linear infinite;
   -webkit-animation:spin 20s linear infinite;
-}
-
-@-webkit-keyframes spin {
-    0%   {
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-@keyframes spin {
-    0%   {
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
 }
 /*||||||||||||||||||||||||||||||||*/
 /*      FOOTER STYLES START       */
