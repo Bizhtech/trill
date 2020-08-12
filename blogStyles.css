@@ -212,6 +212,16 @@ footer #heroLogo{
 footer{
   color: #e6e6e6;
 }
+
+.footer-centering{
+  width: 100%;
+}
+.footer-centering img{
+  margin: 0 auto !important;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%) !important;
+}
 footer .fa {
   padding: 10px;
   font-size: 20px;
