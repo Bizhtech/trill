@@ -32,10 +32,28 @@ body {
 #preloader img{
   position: relative;
   margin: 0 auto;
-  -webkit-animation: spin 1.5s ease-in-out infinite;
-  animation: spin 1.5s ease-in-out infinite;
+  -webkit-animation: footspin 1.5s ease-in-out infinite;
+  animation: footspin 1.5s ease-in-out infinite;
 }
 @-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: translate(-50%) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translate(-50%) rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -ms-transform: translate(-50%) rotate(0deg);
+        transform: translate(-50%) rotate(0deg);
+    }
+    100% {
+        -ms-transform: translate(-50%) rotate(360deg);
+        transform: translate(-50%) rotate(360deg);
+    }
+}
+@-webkit-keyframes footspin {
     0%   {
         -webkit-transform: rotate(0deg);
     }
@@ -43,10 +61,10 @@ body {
         -webkit-transform: rotate(360deg);
     }
 }
-@keyframes spin {
+@keyframes footspin {
     0%   {
         -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
+        transform:  rotate(0deg);
     }
     100% {
         -ms-transform: rotate(360deg);
@@ -177,7 +195,6 @@ nav .bl a:hover::after{
 #heroImg{
   width: 750px;
   height: 400px !important;
-
 }
 #heroLogo{
   width: 50% !important;
@@ -194,11 +211,19 @@ nav .bl a:hover::after{
   cursor: default;
 }
 #landingContent h4{
-  font-size: 38px;
+  font-size: 32px;
   margin-top: 6px;
   letter-spacing: 2px;
   color: #407cc0;
   cursor: default;
+}
+.centering{
+  width: 100%;
+}
+.centering img{
+  margin: 0 auto !important;
+  position: relative;
+  left: 50%;
 }
 #getStartedBtn{
   margin-top: 15px;
@@ -481,6 +506,9 @@ footer #heroLogo{
   width: 100% !important;
   -webkit-filter: drop-shadow(1px 3px 2px #222);
   filter: drop-shadow(1px 3px 2px #222);
+
+  animation: footspin 20s linear infinite;
+  -webkit-animation:footspin 20s linear infinite;
 }
 footer{
   color: #e6e6e6;
