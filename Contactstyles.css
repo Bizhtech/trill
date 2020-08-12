@@ -245,10 +245,6 @@ nav .bl a:hover::after{
   -webkit-filter: drop-shadow(1px 3px 2px #222);
   filter: drop-shadow(1px 3px 2px #222);
 }
-footer img{
-  animation: spin 20s linear infinite;
-  -webkit-animation:spin 20s linear infinite;
-}
 
 @-webkit-keyframes spin {
     0%   {

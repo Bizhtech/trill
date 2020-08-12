@@ -196,7 +196,7 @@ nav .bl a:hover::after{
   width: 750px;
   height: 400px !important;
 }
-#heroLogo{
+.centering #heroLogo{
   width: 50% !important;
   -webkit-filter: drop-shadow(1px 3px 2px #222);
   filter: drop-shadow(1px 3px 2px #222);
@@ -506,9 +506,6 @@ footer #heroLogo{
   width: 100% !important;
   -webkit-filter: drop-shadow(1px 3px 2px #222);
   filter: drop-shadow(1px 3px 2px #222);
-
-  animation: footspin 20s linear infinite;
-  -webkit-animation:footspin 20s linear infinite;
 }
 footer{
   color: #e6e6e6;
