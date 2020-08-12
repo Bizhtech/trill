@@ -200,7 +200,8 @@ nav .bl a:hover::after{
   width: 50% !important;
   -webkit-filter: drop-shadow(1px 3px 2px #222);
   filter: drop-shadow(1px 3px 2px #222);
-  transform: translate(-50%); 
+  animation: spin 20s linear infinite;
+  -webkit-animation:spin 20s linear infinite;
 }
 #landingContent h5{
   font-size: 16px;
